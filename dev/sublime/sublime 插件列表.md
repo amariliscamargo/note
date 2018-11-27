@@ -1,0 +1,95 @@
+<!-- MarkdownTOC -->
+
+- [sublime 常用的优秀插件列表和介绍](#sublime-%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BC%98%E7%A7%80%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%92%8C%E4%BB%8B%E7%BB%8D)
+    - [好用的命令](#%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4)
+    - [优秀的插件介绍](#%E4%BC%98%E7%A7%80%E7%9A%84%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D)
+        - [Material Theme](#material-theme)
+        - [AceJump](#acejump)
+        - [Align Arguments](#align-arguments)
+        - [AutoFileName](#autofilename)
+        - [FileManager](#filemanager)
+        - [Markdown 完美支持](#markdown-%E5%AE%8C%E7%BE%8E%E6%94%AF%E6%8C%81)
+        - [SaneSnippets](#sanesnippets)
+    - [常用扩展包列表 \(高亮的必装\)](#%E5%B8%B8%E7%94%A8%E6%89%A9%E5%B1%95%E5%8C%85%E5%88%97%E8%A1%A8-%E9%AB%98%E4%BA%AE%E7%9A%84%E5%BF%85%E8%A3%85)
+
+<!-- /MarkdownTOC -->
+
+
+<a id="sublime-%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BC%98%E7%A7%80%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%92%8C%E4%BB%8B%E7%BB%8D"></a>
+## sublime 常用的优秀插件列表和介绍
+
+<a id="%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4"></a>
+### 好用的命令
+-   禁用/启用一些扩展包
+
+    命令 `disable package` / `enable package`, 可以临时禁用和启用一些插件
+
+-   查看插件或编辑器中的文件
+
+    命令 `view package file`, 可以用来查看插件包中的文件, 好处是可以借鉴别人写的
+    代码.如果忘记某个插件的用法,可以查看插件的 readme 文件.
+
+<a id="%E4%BC%98%E7%A7%80%E7%9A%84%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D"></a>
+### 优秀的插件介绍
+
+<a id="material-theme"></a>
+#### Material Theme
+感觉最好的主题之一,可惜作者转投 atom,vsCode 了. 嗯,如果哪一天 atom 能减减肥,我也
+很乐意投奔.毕竟 st 不开源.
+
+<a id="acejump"></a>
+#### AceJump
+输入想要跳转的位置的单词首字母,立即就可以跳转过去. 键盘党的福音.
+
+<a id="align-arguments"></a>
+#### Align Arguments
+对齐等号或者任意自定义的符号. 两边对齐.代码洁癖必备.
+
+<a id="autofilename"></a>
+#### AutoFileName
+自动补全路径
+
+<a id="filemanager"></a>
+#### FileManager
+文件管理神器, 嗯用了这个插件比 IDE 的鼠标拖动移动复制文件还爽. sublime 最强文件
+管理之一. 可以替代 SideBarTools,SideBarEnhancements,AdvancedNewFile 等
+
+<a id="markdown-%E5%AE%8C%E7%BE%8E%E6%94%AF%E6%8C%81"></a>
+#### Markdown 完美支持
+-   `MarkdownEditing` // 编辑 markdown 支持各种代码高亮和补全
+-   `Markdown Preview` // markdown 预览, 如果想热加载的话,可以安装 `LiveLoad`
+-   `MarkdownTOC` // 自动生成目录
+
+<a id="sanesnippets"></a>
+#### SaneSnippets
+嗯,更友好的 snippet 模板.对 xml 无爱.
+
+<a id="%E5%B8%B8%E7%94%A8%E6%89%A9%E5%B1%95%E5%8C%85%E5%88%97%E8%A1%A8-%E9%AB%98%E4%BA%AE%E7%9A%84%E5%BF%85%E8%A3%85"></a>
+### 常用扩展包列表 (高亮的必装)
+-   `AceJump` // 代替鼠标快速跳转
+-   `Align Arguments` // 等号两边对齐
+-   `AutoFileName` // 自动补全文件名
+-   `All Autocomplete` // 所有打开的标签页中寻找补全
+-   AutoSetSyntax // 自动切换文件的格式
+-   Blade Snippets // laravel blade 模板
+-   Bootstrap 3 Snippets // bt3 snippets
+-   `BracketHighlighter` // 括号,引号这类高亮功能
+-   `Chain of Command` // 一个快捷键绑定多个命令
+-   DeleteBlankLines // 删除空行 (key: Ctrl+Alt+Backspace)
+-   `DocBlockr` // 注释 (key: /** + tab 补全)
+-   `Emmet` // web 自动补全(key: tab)
+-   `FileManager` // 文件管理
+-   Git // git
+-   `HTML-CSS-JS Prettify` // 格式化
+-   IMESupport // win10 中文输入法支持 (安装第三方输入法需要安装此插件)
+-   Laravel Blade Highlighter // blade 模板高亮
+-   `MarkdownEditing` // 编辑 markdown 支持各种代码高亮和补全
+-   `Markdown Preview` // markdown 预览 (cmd: markdown preview)
+-   `MarkdownTOC` // markdown 自动添加目录 (cmd: markdowntoc)
+-   `Material Theme`
+-   `SaneSnippets` // 更友好的 snippet
+-   Package Control // 包管理
+-   Pretty JSON // json 格式化 (cmd: pretty json)
+-   PyV8 // emmet 依赖的扩展
+-   SFTP // ftp 插件 (cmd: sftp)
+-   Vue Syntax Highlight // vue 模板语法高亮

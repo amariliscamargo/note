@@ -2,9 +2,7 @@
 
 <!-- MarkdownTOC -->
 
-- [sublime](#sublime)
 - [npm和yarn](#npm%E5%92%8Cyarn)
-- [macos小技巧](#macos%E5%B0%8F%E6%8A%80%E5%B7%A7)
 - [docker](#docker)
     - [dockr搭建centos7](#dockr%E6%90%AD%E5%BB%BAcentos7)
     - [laradock安装 macos](#laradock%E5%AE%89%E8%A3%85-macos)
@@ -18,7 +16,6 @@
     - [git服务器的搭建 centos7](#git%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%90%AD%E5%BB%BA-centos7)
 - [linux](#linux)
     - [linux命令](#linux%E5%91%BD%E4%BB%A4)
-    - [文件系统](#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
     - [centos7新建用户及sudo](#centos7%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%8F%8Asudo)
     - [SSH通讯 centos7](#ssh%E9%80%9A%E8%AE%AF-centos7)
 - [php](#php)
@@ -31,39 +28,7 @@
 
 <!-- /MarkdownTOC -->
 
-<script>document.onload = function(){document.querySelector('ul').style.cssText = 'font-size: 14px; position: fixed; left: 0; overflow: scroll; width: 15%; top: 0; height: 100vh;';}()</script>>
-
-<a id="sublime"></a>
-## sublime
--   禁用/启用一些扩展包: cmd`disable package` / `enable package`
--   查看插件或编辑器中的文件,用来参考; cmd`view package file`
--   常用扩展包
-    -   `AceJump` // 代替鼠标快速跳转
-    -   `Align Arguments` // 等号两边对齐
-    -   `AutoFileName` // 自动补全文件名
-    -   AutoSetSyntax // 自动切换文件的格式
-    -   Blade Snippets // laravel blade 模板
-    -   Bootstrap 3 Snippets // bt3 snippets
-    -   `BracketHighlighter` // 括号,引号这类高亮功能
-    -   `Chain of Command` // 一个快捷键绑定多个命令
-    -   DeleteBlankLines // 删除空行 (key: Ctrl+Alt+Backspace)
-    -   `DocBlockr` // 注释 (key: /** + tab 补全)
-    -   `Emmet` // web 自动补全(key: tab)
-    -   `FileManager` // 文件管理
-    -   Git // git
-    -   `HTML-CSS-JS Prettify` // 格式化
-    -   IMESupport // win10 中文输入法支持 (安装第三方输入法需要安装此插件)
-    -   Laravel Blade Highlighter // blade 模板高亮
-    -   `MarkdownEditing` // 编辑 markdown 支持各种代码高亮和补全
-    -   `Markdown Preview` // markdown 预览 (cmd: markdown preview)
-    -   `MarkdownTOC` // markdown 自动添加目录 (cmd: markdowntoc)
-    -   `Material Theme`
-    -   `SaneSnippets` // 更友好的 snippet
-    -   Package Control // 包管理
-    -   Pretty JSON // json 格式化 (cmd: pretty json)
-    -   PyV8 // emmet 依赖的扩展
-    -   SFTP // ftp 插件 (cmd: sftp)
-    -   Vue Syntax Highlight // vue 模板语法高亮
+<script>document.onload = function(){document.querySelector('ul').style.cssText = 'font-size: 14px; position: fixed; left: 0; overflow: scroll; width: 15%; top: 0; height: 100vh;';}()</script>
 
 <a id="npm%E5%92%8Cyarn"></a>
 ## npm和yarn
@@ -79,90 +44,6 @@ yarn config list // 查看所有配置项
 yarn config get <key>
 yarn config set <key> <value> [-g|--global]
 ```
-
-<a id="macos%E5%B0%8F%E6%8A%80%E5%B7%A7"></a>
-## macos小技巧
-
--   软件:
-    -   校验软件签名
-        ```
-        验证SHA-256
-        openssl dgst -sha256 /path/to/file
-        验证SHA-1
-        openssl sha1 /path/to/file
-        验证 MD5
-        openssl md5 /path/to/file
-        ```
-    -   软件安装
-        ```
-          到 app store 中直接安装
-          xxx.app 直接移动到 /Applications 即可;
-          xxx.dmg 双击后解压出 xxx.app, 执行上一步操作
-        ```
-    -   不更改系统语言的情况下,更改软件语言
-        ```
-        情况1: 使用 defaults 命令书
-        例如: 更改 “Mac 帮助” 为中文优先,英文次之
-          defaults domains (列出所有软件的标识符,用来查看 “Mac 帮助” 的软件名称)
-          defaults write com.apple.help AppleLanguages "(zh-CN,en-US)"
-          defaults write com.apple.helpviewer AppleLanguages "(zh-CN,en-US)"
-          defaults write com.google.Chrome AppleLanguages "(zh-CN,en-US)" // 更改 chrome
-        情况2: 对于 photoshop 等比较大的垃圾软件. 需要在网上下载语言包,然后替换到相应的目录.
-        ```
-    -   Finder 等软件不在 launchpad 中显示
-        ```
-        创建这个程序的软连接到 /Application 目录下即可
-        例如:
-        ln -s /System/Library/CoreServices/Finder.app /Applications/Finder.app
-        ```
-
--   Spotlight 无法关闭 Developer Results
-    ```
-      3.1 cd /Applications
-      3.2 touch Xcode.app
-      3.3 到 Spotlight 的设置中将 Developer 的对勾去掉
-    ```
-
--   中英文严格1:2等宽字体 M+ [网址](http://mplus-fonts.osdn.jp/about.html)
-
--   输入法: 唯一选择 rime
-    ```
-    1. 可以使用 shift 键切换输入法
-    2. 可以根据不同的 应用设置默认的输入模式 修改 squirrel.yaml
-      com.apple.Spotlight:
-        ascii_mode: true
-      com.sublimetext.3:
-        ascii_mode: true
-    3. 可以配置中文下使用英文标点,使用中括号切换候选页
-        修改 ~/Library/Rime/defalut.yaml
-        标点符合更改一下例如: '\' : [ 、, ＼ ] 改为: '\' : {commit: '\'}
-        { when: has_menu, accept: bracketleft, send: Page_Up }
-        { when: has_menu, accept: bracketright, send: Page_Down }
-        // 从中文切换到英文输入法时,将英文字母自动上屏
-        Shift_L: commit_code
-        Shift_R: commit_code
-    4. 可以配置各种皮肤 squirrel.yaml
-        color_scheme: clean_white
-    5. 注意 rime 的任何配置文件更改 都需要重新部署一下,点击 deploy 按钮
-    6. rime 词库同步备份: luna_pinyin.userdb.txt
-    7. 删除系统 ABC 输入法
-        cd ~/Library/Preferences/
-        plutil -p com.apple.HIToolbox.plist // 查看 plist 的命令
-        plutil -remove AppleEnabledInputSources.0 com.apple.HIToolbox.plistp // 删除 name 属性为 ABC 的节点
-        重启系统即可
-    ```
--   终端显示 bogon 更改主机名 `sudo scutil --set HostName Mac`
--   打开全键盘控制
-    ```
-    System Preferences > Keyboard > Shortcuts > All controls
-    Don't Save 按钮(备选按钮)有了一圈蓝边，这个意味着你可以通过空格键触发。不仅如此，你还可以用Tab键把蓝边转移到其他按钮，来实现全键盘控制。
-    ```
-8. 语音
-    ```
-    1. 命令行中使用 say 命令;
-    2. alt + Esc 快捷键
-    3. cmd + ctrl + d 打开词典
-    ```
 
 <a id="docker"></a>
 ## docker
@@ -520,42 +401,6 @@ git reset --hard 版本号前几位数字
     // 软链接 (可以链接目录和文件)
     ln -s /home/a.txt /usr/liu/a2.txt
     ```
-
-<a id="%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F"></a>
-### 文件系统
--   文件是什么
-
-    现代操作系统为解决信息能独立于进程之外被长期存储引入了文件, linux 系统中除进程之外的一切皆是文件  
-    我们知道文件都有文件名与数据，这在 Linux 上被分成两个部分： 用户数据 (user data) 与元数据 (metadata)。  
-    用户数据: 即文件数据块 (data block)，数据块是记录文件真实内容的地方；  
-    元数据则: 是文件的附加属性，如文件大小、创建时间、所有者等信息。  
-    索引节点号: 在 Linux 中，元数据中的 inode 号(即索引节点号) 才是文件的唯一标识而非文件名。 使用命令 ls -i 查看文件的 inode 号  
-    文件名: 仅是为了方便人们的记忆和使用，系统或程序通过 inode 号寻找正确的文件数据块。
-
--   目录是什么
-
-    Linux 与其他类 UNIX 系统一样并不区分文件与目录: 目录是记录了其他文件名的文件  
-    为了便于文件的管理，Linux 还引入了目录（有时亦被称为文件夹）这一概念。  
-    目录使文件可被分类管理，且目录的引入使 Linux 的文件系统形成一个层级结构的目录树  
-    不区分的例子: 使用命令 mkdir 创建目录时,如果名称与现有的文件名(或目录名)重复,都会创建失败.
-
--   硬链接和软链接是什么
-
-    为了解决文件的共享使用,引入了硬链接和软链接  
-    1.硬链接:  
-    若一个 inode 号对应多个文件名，则称这些文件为硬链接;换言之，硬链接就是同一个文件使用了多个别名;  
-    文件有相同的 inode 号以及 data block  
-    不能对目录进行创建; 硬链接不能对目录创建是受限于文件系统的设计（见 清单 4.对目录创建硬链接将失败）。
-    现 Linux 文件系统中的目录均隐藏了两个个特殊的目录：当前目录（.）与父目录（..）。
-    查看这两个特殊目录的 inode 号可知其实这两目录就是两个硬链接(链接到当前目录和父目录)
-    若系统允许对目录创建硬链接，则会产生目录环。
-    2.软链接:  
-    软链接与硬链接不同，若文件用户数据块中存放的内容是另一文件的路径名的指向，则该文件就是软连接。
-    软链接就是一个普通文件，只是数据块内容有点特殊。软链接有着自己的 inode 号以及用户数据块
-    因此软链接的创建与使用没有类似硬链接的诸多限制
-
--   参考链接
-    [理解 Linux 的硬链接与软链接](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html)
 
 <a id="centos7%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%8F%8Asudo"></a>
 ### centos7新建用户及sudo
