@@ -1,0 +1,45 @@
+import random
+import os
+from time import sleep
+import time
+
+# 跳过时间点, 和 刷怪的总时间
+timePoints, boosTime = [41,42,46,47], 50 #2982388496 账号 伽罗 后裔 王昭君 魔女的记忆
+#timePoints, boosTime = [50,51,58,59], 65 #小号 账号 后裔 蔡文姬 亚瑟 魔女的记忆
+# 刷 boss 次数
+bossNum = 180 # 185
+# 点击按钮的时间间隔 推荐 5s 左右
+tapTimeInterval = 5
+
+#坐标点加入随机数
+def naturalTap(x,y):
+    xa = x + random.randint(-3,3)
+    ya = y + random.randint(-3,3)
+    os.system('adb shell input tap %d %d'%(xa,ya))
+
+def repeat_game(n):
+    print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
+    print('# 第 %d'%(n) +' 次闯关')
+
+    # os.system('adb shell input tap 1480 918')
+    naturalTap(1323,742) #闯关按钮, 之前可能会遇到健康时间提示需要点击一下确定
+    sleep(1)
+    naturalTap(1480,918) # 闯关按钮
+    print('# 刷boss开始,等 %d 秒'%(boosTime))
+
+    for i in range(1,boosTime):
+        #print(i) # 时间点测试
+        if i in timePoints:
+            # os.system('adb shell input tap 1721 71')
+            naturalTap(1721,71)
+        sleep(1)
+
+    print('# 刷boss结束, # 点击屏幕继续')
+    naturalTap(1096,540)
+    sleep(tapTimeInterval)
+    print('# 再次挑战')
+    naturalTap(1581,995)
+    sleep(tapTimeInterval)
+
+for i in range(1,bossNum):
+    repeat_game(i)
