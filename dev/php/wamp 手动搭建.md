@@ -1,3 +1,8 @@
+---
+title: 'Windows Server wamp 环境手动搭建'
+date: 2018-11-08 22:06:06
+tags: [dev, php, 环境]
+---
 # Windows Server wamp 环境手动搭建
 
 <!-- MarkdownTOC -->

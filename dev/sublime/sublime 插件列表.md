@@ -1,3 +1,8 @@
+---
+title: 'sublime 常用的优秀插件列表和介绍'
+date: 2018-11-10 22:06:06
+tags: [dev, sublime]
+---
 # sublime 常用的优秀插件列表和介绍
 
 <!-- MarkdownTOC -->

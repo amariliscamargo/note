@@ -1,3 +1,8 @@
+---
+title: 火狐常用插件及配置
+date: 2018-11-06 22:06:06
+tags: [dev, firfox]
+---
 # 火狐常用插件及配置
 
 <!-- MarkdownTOC -->

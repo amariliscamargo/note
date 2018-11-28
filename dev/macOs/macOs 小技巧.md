@@ -1,3 +1,8 @@
+---
+title: 'macos小技巧'
+date: 2018-11-08 22:06:06
+tags: [dev, macOs]
+---
 # macos小技巧
 
 <!-- MarkdownTOC -->
