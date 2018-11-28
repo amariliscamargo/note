@@ -1,4 +1,4 @@
-# 开发 Tips
+# 开发记录
 
 <!-- MarkdownTOC -->
 
@@ -27,8 +27,6 @@
     - [创建数据库,用户及权限设置](#%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%94%A8%E6%88%B7%E5%8F%8A%E6%9D%83%E9%99%90%E8%AE%BE%E7%BD%AE)
 
 <!-- /MarkdownTOC -->
-
-<script>document.onload = function(){document.querySelector('ul').style.cssText = 'font-size: 14px; position: fixed; left: 0; overflow: scroll; width: 15%; top: 0; height: 100vh;';}()</script>
 
 <a id="npm%E5%92%8Cyarn"></a>
 ## npm和yarn

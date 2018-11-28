@@ -1,25 +1,22 @@
+# sublime 常用的优秀插件列表和介绍
+
 <!-- MarkdownTOC -->
 
-- [sublime 常用的优秀插件列表和介绍](#sublime-%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BC%98%E7%A7%80%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%92%8C%E4%BB%8B%E7%BB%8D)
-    - [好用的命令](#%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4)
-    - [优秀的插件介绍](#%E4%BC%98%E7%A7%80%E7%9A%84%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D)
-        - [Material Theme](#material-theme)
-        - [AceJump](#acejump)
-        - [Align Arguments](#align-arguments)
-        - [AutoFileName](#autofilename)
-        - [FileManager](#filemanager)
-        - [Markdown 完美支持](#markdown-%E5%AE%8C%E7%BE%8E%E6%94%AF%E6%8C%81)
-        - [SaneSnippets](#sanesnippets)
-    - [常用扩展包列表 \(高亮的必装\)](#%E5%B8%B8%E7%94%A8%E6%89%A9%E5%B1%95%E5%8C%85%E5%88%97%E8%A1%A8-%E9%AB%98%E4%BA%AE%E7%9A%84%E5%BF%85%E8%A3%85)
+- [常用命令](#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+- [优秀的插件介绍](#%E4%BC%98%E7%A7%80%E7%9A%84%E6%8F%92%E4%BB%B6%E4%BB%8B%E7%BB%8D)
+    - [Material Theme](#material-theme)
+    - [AceJump](#acejump)
+    - [Align Arguments](#align-arguments)
+    - [AutoFileName](#autofilename)
+    - [FileManager](#filemanager)
+    - [Markdown 完美支持](#markdown-%E5%AE%8C%E7%BE%8E%E6%94%AF%E6%8C%81)
+    - [SaneSnippets](#sanesnippets)
+- [常用扩展包列表 \(高亮的必装\)](#%E5%B8%B8%E7%94%A8%E6%89%A9%E5%B1%95%E5%8C%85%E5%88%97%E8%A1%A8-%E9%AB%98%E4%BA%AE%E7%9A%84%E5%BF%85%E8%A3%85)
 
 <!-- /MarkdownTOC -->
 
-
-<a id="sublime-%E5%B8%B8%E7%94%A8%E7%9A%84%E4%BC%98%E7%A7%80%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%92%8C%E4%BB%8B%E7%BB%8D"></a>
-## sublime 常用的优秀插件列表和介绍
-
-<a id="%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4"></a>
-### 好用的命令
+<a id="%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"></a>
+### 常用命令
 -   禁用/启用一些扩展包
 
     命令 `disable package` / `enable package`, 可以临时禁用和启用一些插件

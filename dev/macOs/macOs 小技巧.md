@@ -1,14 +1,12 @@
+# macos小技巧
+
 <!-- MarkdownTOC -->
 
-- [macos小技巧](#macos%E5%B0%8F%E6%8A%80%E5%B7%A7)
-    - [软件:](#%E8%BD%AF%E4%BB%B6)
-    - [输入法和字体](#%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%AD%97%E4%BD%93)
-    - [其他好用的小功能](#%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%8A%9F%E8%83%BD)
+- [软件:](#%E8%BD%AF%E4%BB%B6)
+- [输入法和字体](#%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%AD%97%E4%BD%93)
+- [其他好用的小功能](#%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%8A%9F%E8%83%BD)
 
 <!-- /MarkdownTOC -->
-
-<a id="macos%E5%B0%8F%E6%8A%80%E5%B7%A7"></a>
-## macos小技巧
 
 <a id="%E8%BD%AF%E4%BB%B6"></a>
 ### 软件:
@@ -89,7 +87,7 @@
     System Preferences > Keyboard > Shortcuts > All controls
     Don't Save 按钮(备选按钮)有了一圈蓝边，这个意味着你可以通过空格键触发。不仅如此，你还可以用Tab键把蓝边转移到其他按钮，来实现全键盘控制。
     ```
-8. 语音
+-   语音
     ```
     1. 命令行中使用 say 命令;
     2. alt + Esc 快捷键

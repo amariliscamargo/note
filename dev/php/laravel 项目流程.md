@@ -1,9 +1,24 @@
-# laravel5.6 项目流程.md (基于 laradock)
-约定:
-$ 为真实环境
-^ 为 docker 环境
-假设项目名称为 blog
-## 安装
+# laravel5.* 基于 laradock 项目流程
+
+<!-- MarkdownTOC -->
+
+- [此文未完成](#%E6%AD%A4%E6%96%87%E6%9C%AA%E5%AE%8C%E6%88%90)
+    - [说明](#%E8%AF%B4%E6%98%8E)
+    - [安装](#%E5%AE%89%E8%A3%85)
+
+<!-- /MarkdownTOC -->
+
+<a id="%E6%AD%A4%E6%96%87%E6%9C%AA%E5%AE%8C%E6%88%90"></a>
+## 此文未完成
+
+<a id="%E8%AF%B4%E6%98%8E"></a>
+### 说明
+`$` 为真实环境  
+`^` 为 docker 环境  
+假设项目名称为 `blog`
+
+<a id="%E5%AE%89%E8%A3%85"></a>
+### 安装
 1. 设置 composer 镜像
 ```
 $ cd laradock
