@@ -1,6 +1,7 @@
 ---
 title: 'sublime 常用的优秀插件列表和介绍'
-date: 2018-11-10 22:06:06
+date: '2018-11-10 22:06:06'
+updated: '2018-12-02 19:06:05'
 tags: [dev, sublime]
 ---
 # sublime 常用的优秀插件列表和介绍
@@ -55,6 +56,15 @@ tags: [dev, sublime]
 #### FileManager
 文件管理神器, 嗯用了这个插件比 IDE 的鼠标拖动移动复制文件还爽. sublime 最强文件
 管理之一. 可以替代 SideBarTools,SideBarEnhancements,AdvancedNewFile 等
+
+修改 open in brower 无法打开中文名称文件的 bug
+FileManager/FMcommands/open_in_browser.py
+```python
+from urllib.parse import quote
+import string
+// 在 24 行和 31 行,后面将 path 变量格式化一下
+path = quote(path, string.printable);
+```
 
 <a id="markdown-%E5%AE%8C%E7%BE%8E%E6%94%AF%E6%8C%81"></a>
 #### Markdown 完美支持

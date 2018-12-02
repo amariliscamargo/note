@@ -1,7 +1,8 @@
 ---
-title: 'macos小技巧'
-date: 2018-11-08 22:06:06
-tags: [dev, macOs]
+title: 'tips'
+date: '2018-11-02 18:58:28'
+updated: '2018-11-02 19:05:00'
+tags: ['dev', 'macOs']
 ---
 # macos小技巧
 

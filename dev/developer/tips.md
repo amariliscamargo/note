@@ -1,6 +1,7 @@
 ---
 title: 开发记录
-date: 2018-11-05 22:06:06
+date: '2018-11-05 22:06:06'
+updated: '2018-12-02 19:03:23'
 tags: [dev, tips]
 ---
 # 开发记录
@@ -318,6 +319,16 @@ git branch -d user-login // 删除分支
 // 版本回退
 git reset --hard 版本号前几位数字
 ```
+清空仓库
+```bash
+git rm -rf *
+git commit -m "Empty the repository"
+git push
+# 如果 git push 命令报错,运行下面的命令
+git push -u origin master -f
+```
+
+
 
 <a id="git%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%90%AD%E5%BB%BA-centos7"></a>
 ### git服务器的搭建 centos7

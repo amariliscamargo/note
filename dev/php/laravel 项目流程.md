@@ -1,6 +1,7 @@
 ---
 title: 'laravel5.* 基于 laradock 项目流程'
-date: 2018-11-08 22:06:06
+date: '2018-11-08 22:06:06'
+updated: '2018-12-02 19:05:45'
 tags: [dev, php, laravel, laradock, 环境, 草稿]
 ---
 # laravel5.* 基于 laradock 项目流程

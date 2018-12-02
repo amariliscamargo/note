@@ -1,6 +1,7 @@
 ---
-title: yaml
-date: 2018-11-04 22:06:06
+title: 'yaml'
+date: '2018-11-04 22:06:06'
+updated: '2018-12-02 19:03:09'
 tags: [dev, 数据交换]
 ---
 # yaml
