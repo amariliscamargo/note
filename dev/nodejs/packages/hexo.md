@@ -16,6 +16,7 @@ tags: ['dev', 'nodejs', 'packages']
   - [deploy 部署](#deploy-%E9%83%A8%E7%BD%B2)
   - [init](#init)
   - [new](#new)
+  - [clean](#clean)
 - [优化](#%E4%BC%98%E5%8C%96)
 
 <!-- /MarkdownTOC -->
@@ -110,6 +111,14 @@ $ hexo new [layout] <title>
 ```
 新建一篇文章。layout 默认使用`_config.yml 中的 default_layout`参数代替  
 如果标题包含空格的话，请使用引号括起来。
+
+<a id="clean"></a>
+### clean
+```
+hexo clean
+```
+清除缓存文件 (db.json) 和已生成的静态文件 (public)。  
+在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。
 
 <a id="%E4%BC%98%E5%8C%96"></a>
 ## 优化

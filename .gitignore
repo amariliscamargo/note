@@ -1,0 +1,4 @@
+# .开头的任何文件
+.*
+# .gitignore 可以不能忽略
+!/.gitignore
