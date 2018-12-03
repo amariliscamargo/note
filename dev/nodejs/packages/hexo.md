@@ -135,3 +135,8 @@ hexo clean
     // 将 jquery/2.0.3/jquery.min.js 替换为:
     https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js
     ```
+-   fancybox: false
+    ```
+    // 修改 /env/node-env/gitblog/themes/landscape/_config.yml
+    fancybox: false // fancybox 图片幻灯片展示,没必要
+    ```
