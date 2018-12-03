@@ -1,7 +1,7 @@
 ---
 title: 'hexo'
 date: '2018-12-02 19:52:29'
-updated: '2018-12-02 19:52:29'
+updated: '2018-12-03 13:41:41'
 tags: ['dev', 'nodejs', 'packages']
 ---
 # Hexo 使用指南
@@ -12,10 +12,11 @@ tags: ['dev', 'nodejs', 'packages']
 - [初始化及目录结构](#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
 - [配置](#%E9%85%8D%E7%BD%AE)
 - [命令](#%E5%91%BD%E4%BB%A4)
-    - [generate 生成](#generate-%E7%94%9F%E6%88%90)
-    - [deploy 部署](#deploy-%E9%83%A8%E7%BD%B2)
-    - [init](#init)
-    - [new](#new)
+  - [generate 生成](#generate-%E7%94%9F%E6%88%90)
+  - [deploy 部署](#deploy-%E9%83%A8%E7%BD%B2)
+  - [init](#init)
+  - [new](#new)
+- [优化](#%E4%BC%98%E5%8C%96)
 
 <!-- /MarkdownTOC -->
 
@@ -109,3 +110,19 @@ $ hexo new [layout] <title>
 ```
 新建一篇文章。layout 默认使用`_config.yml 中的 default_layout`参数代替  
 如果标题包含空格的话，请使用引号括起来。
+
+<a id="%E4%BC%98%E5%8C%96"></a>
+## 优化
+-   文件夹名称, 中划线小写
+-   替换谷歌字体 (众所周知的原因)
+    ```js
+    // 修改 /themes/landscape/layout/_partial/head.ejs
+    // 将 fonts.googleapis.com/css?family=Source+Code+Pro 替换为:
+    http://fonts.proxy.ustclug.org/css?family=Source+Code+Pro
+    ```
+-   替换谷歌cnd加速地址 (众所周知)
+    ```js
+    // 修改 /themes/landscape/layout/_partial/after-footer.ejs
+    // 将 jquery/2.0.3/jquery.min.js 替换为:
+    https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js
+    ```
