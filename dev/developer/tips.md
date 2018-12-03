@@ -1,8 +1,8 @@
 ---
-title: 开发记录
-date: '2018-11-05 22:06:06'
-updated: '2018-12-02 19:03:23'
-tags: [dev, tips]
+title: 'tips'
+date: '2018-11-03 11:23:59'
+updated: '2018-12-03 11:23:59'
+tags: ['dev', 'developer']
 ---
 # 开发记录
 

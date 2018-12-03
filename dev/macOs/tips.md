@@ -2,7 +2,7 @@
 title: 'tips'
 date: '2018-11-02 18:58:28'
 updated: '2018-11-02 19:05:00'
-tags: ['dev', 'macOs']
+tags: ['dev', 'macos']
 ---
 # macos小技巧
 

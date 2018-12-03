@@ -2,7 +2,7 @@
 title: 'iterm2'
 date: '2018-12-02 19:04:53'
 updated: '2018-12-02 19:04:53'
-tags: ['dev', 'macOs']
+tags: ['dev', 'macos']
 ---
 # iTerm2
 
