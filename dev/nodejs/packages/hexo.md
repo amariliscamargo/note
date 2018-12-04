@@ -137,6 +137,8 @@ hexo clean
     ```
 -   fancybox: false
     ```
-    // 修改 /env/node-env/gitblog/themes/landscape/_config.yml
+    // 修改 /themes/landscape/_config.yml
     fancybox: false // fancybox 图片幻灯片展示,没必要
+    // 删除 /themes/landscape/source/fancybox
+    // 修改 /themes/landscape/Gruntfile.js 中 fancybox 相关的内容
     ```
