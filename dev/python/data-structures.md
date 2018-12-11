@@ -2,7 +2,7 @@
 date: '2018-12-09 16:03:43'
 tags: [dev, python]
 title: 数据结构
-updated: '2018-12-09 18:37:48'
+updated: '2018-12-11 17:18:28'
 ...
 ---
 # 数据结构
@@ -19,7 +19,8 @@ updated: '2018-12-09 18:37:48'
 - [小结](#%E5%B0%8F%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到目录](./index.md)
+
 > 数据结构是: 存储相关数据的集合  
 > 四种内置的数据结构: list, tuple, dictionary, set
 
