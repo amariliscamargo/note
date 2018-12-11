@@ -2,14 +2,14 @@
 date: '2018-12-04 12:57:28'
 tags: [life, book, technology, mysql-doc]
 title: MySQL 5.7 参考手册
-updated: '2018-12-11 16:03:01'
+updated: '2018-12-11 17:07:05'
 ...
 ---
 # MySQL 5.7 参考手册
 <!-- MarkdownTOCs -->
 
-- [前言和法律声明](./preface/_index_preface.md "Preface and Legal Notices")
-- [一般信息](./general-information/_index_grneral.md "General Information")
+- [前言和法律声明](./preface/index_preface.md "Preface and Legal Notices")
+- [一般信息](./general-information/index_grneral.md "General Information")
     - [关于本手册](./general-information/about.md "About This Manual")
     - [印刷和语法约定](./general-information/typog.md "Typographical and Syntax Conventions")
     - [MySQL数据库管理系统概述](./general-information/view.md "Overview of the MySQL Database Management System")
@@ -26,8 +26,8 @@ updated: '2018-12-11 16:03:01'
 
 
 ```yaml
-- ['_index_preface.md','前言和法律声明', "Preface and Legal Notices"]
-- ['_index_grneral.md','一般信息', "General Information"]
+- ['index_preface.md','前言和法律声明', "Preface and Legal Notices"]
+- ['index_grneral.md','一般信息', "General Information"]
 - ['about.md','关于本手册', "About This Manual"]
 - ['typog.md','印刷和语法约定', "Typographical and Syntax Conventions"]
 - ['view.md','MySQL数据库管理系统概述', "Overview of the MySQL Database Management System"]
