@@ -1,8 +1,8 @@
 ---
 title: '第1章 一般信息'
 date: '2018-12-04 21:33:26'
-updated: '2018-12-04 22:41:01'
-tags: ['life', 'book', 'technology', 'mysql-doc', '02-general-information']
+updated: '2018-12-05 18:57:55'
+tags: ['life', 'book', 'technology', 'mysql-doc']
 ---
 ## 第1章 一般信息
 <!-- MarkdownTOC -->

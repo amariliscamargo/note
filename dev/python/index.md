@@ -1,0 +1,166 @@
+---
+date: '2018-12-09 15:12:36'
+tags: [dev, python]
+title: Python 目录
+updated: '2018-12-10 00:11:00'
+...
+---
+# Python 目录
+<!-- MarkdownTOCs -->
+
+-   [关于Python](./about-python.md)
+-   [Python 安装](./installation.md)
+    -   [在 windows 上安装](./installation.md#%E5%9C%A8%20windows%20%E4%B8%8A%E5%AE%89%E8%A3%85)
+    -   [在 Mac OS X 上安装](./installation.md#%E5%9C%A8%20Mac%20OS%20X%20%E4%B8%8A%E5%AE%89%E8%A3%85)
+    -   [在 GNU/Linux 上安装](./installation.md#%E5%9C%A8%20GNU/Linux%20%E4%B8%8A%E5%AE%89%E8%A3%85)
+-   [第一步](./first-steps.md)
+    -   [使用交互式提示符](./first-steps.md#%E4%BD%BF%E7%94%A8%E4%BA%A4%E4%BA%92%E5%BC%8F%E6%8F%90%E7%A4%BA%E7%AC%A6)
+    -   [选择一个编辑器](./first-steps.md#%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E7%BC%96%E8%BE%91%E5%99%A8)
+    -   [PyCharm](./first-steps.md#PyCharm)
+    -   [Vim](./first-steps.md#Vim)
+    -   [Emacs](./first-steps.md#Emacs)
+    -   [使用源文件](./first-steps.md#%E4%BD%BF%E7%94%A8%E6%BA%90%E6%96%87%E4%BB%B6)
+    -   [获得帮助](./first-steps.md#%E8%8E%B7%E5%BE%97%E5%B8%AE%E5%8A%A9)
+    -   [总结](./first-steps.md#%E6%80%BB%E7%BB%93)
+-   [基本语法](./basics.md)
+    -   [注释](./basics.md#%E6%B3%A8%E9%87%8A)
+    -   [文字常量](./basics.md#%E6%96%87%E5%AD%97%E5%B8%B8%E9%87%8F)
+    -   [数字](./basics.md#%E6%95%B0%E5%AD%97)
+    -   [字符串](./basics.md#%E5%AD%97%E7%AC%A6%E4%B8%B2)
+    -   [变量](./basics.md#%E5%8F%98%E9%87%8F)
+    -   [标识符命名](./basics.md#%E6%A0%87%E8%AF%86%E7%AC%A6%E5%91%BD%E5%90%8D)
+    -   [数据类型](./basics.md#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+    -   [对象](./basics.md#%E5%AF%B9%E8%B1%A1)
+    -   [如何编写 Python 程序？](./basics.md#%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%20Python%20%E7%A8%8B%E5%BA%8F%EF%BC%9F)
+    -   [逻辑行和物理行](./basics.md#%E9%80%BB%E8%BE%91%E8%A1%8C%E5%92%8C%E7%89%A9%E7%90%86%E8%A1%8C)
+    -   [缩进](./basics.md#%E7%BC%A9%E8%BF%9B)
+    -   [总结](./basics.md#%E6%80%BB%E7%BB%93)
+-   [运算符与表达式](./operators-and-expressions.md)
+    -   [运算符](./operators-and-expressions.md#%E8%BF%90%E7%AE%97%E7%AC%A6)
+    -   [数学运和赋值的快捷方式。](./operators-and-expressions.md#%E6%95%B0%E5%AD%A6%E8%BF%90%E5%92%8C%E8%B5%8B%E5%80%BC%E7%9A%84%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E3%80%82)
+    -   [计算顺序](./operators-and-expressions.md#%E8%AE%A1%E7%AE%97%E9%A1%BA%E5%BA%8F)
+    -   [改变计算顺序](./operators-and-expressions.md#%E6%94%B9%E5%8F%98%E8%AE%A1%E7%AE%97%E9%A1%BA%E5%BA%8F)
+    -   [关联性](./operators-and-expressions.md#%E5%85%B3%E8%81%94%E6%80%A7)
+    -   [表达式](./operators-and-expressions.md#%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+    -   [总结](./operators-and-expressions.md#%E6%80%BB%E7%BB%93)
+-   [控制流](./control-flow.md)
+    -   [if 语句](./control-flow.md#if%20%E8%AF%AD%E5%8F%A5)
+    -   [while 语句](./control-flow.md#while%20%E8%AF%AD%E5%8F%A5)
+    -   [for 循环](./control-flow.md#for%20%E5%BE%AA%E7%8E%AF)
+    -   [break 语句](./control-flow.md#break%20%E8%AF%AD%E5%8F%A5)
+    -   [continue 语句](./control-flow.md#continue%20%E8%AF%AD%E5%8F%A5)
+    -   [总结](./control-flow.md#%E6%80%BB%E7%BB%93)
+-   [函数](./functions.md)
+    -   [函数参数](./functions.md#%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0)
+    -   [局部变量](./functions.md#%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F)
+    -   [global 语句](./functions.md#global%20%E8%AF%AD%E5%8F%A5)
+    -   [默认参数值](./functions.md#%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%E5%80%BC)
+    -   [关键字参数](./functions.md#%E5%85%B3%E9%94%AE%E5%AD%97%E5%8F%82%E6%95%B0)
+    -   [可变参数](./functions.md#%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0)
+    -   [return 语句](./functions.md#return%20%E8%AF%AD%E5%8F%A5)
+    -   [文档字符串——DocStrings](./functions.md#%E6%96%87%E6%A1%A3%E5%AD%97%E7%AC%A6%E4%B8%B2%E2%80%94%E2%80%94DocStrings)
+    -   [总结](./functions.md#%E6%80%BB%E7%BB%93)
+-   [模块](./modules.md)
+    -   [模块](./modules.md#%E6%A8%A1%E5%9D%97)
+    -   [字节码文件 .pyc](./modules.md#%E5%AD%97%E8%8A%82%E7%A0%81%E6%96%87%E4%BB%B6%20.pyc)
+    -   [from..import 语句](./modules.md#from..import%20%E8%AF%AD%E5%8F%A5)
+    -   [模块的`__name__`](./modules.md#%E6%A8%A1%E5%9D%97%E7%9A%84%60__name__%60)
+    -   [创建你自己的模块](./modules.md#%E5%88%9B%E5%BB%BA%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A8%A1%E5%9D%97)
+    -   [dir 函数](./modules.md#dir%20%E5%87%BD%E6%95%B0)
+    -   [程序包](./modules.md#%E7%A8%8B%E5%BA%8F%E5%8C%85)
+    -   [小结](./modules.md#%E5%B0%8F%E7%BB%93)
+-   [数据结构](./data-structures.md)
+    -   [List](./data-structures.md#List)
+    -   [对象和类的简介](./data-structures.md#%E5%AF%B9%E8%B1%A1%E5%92%8C%E7%B1%BB%E7%9A%84%E7%AE%80%E4%BB%8B)
+    -   [元组](./data-structures.md#%E5%85%83%E7%BB%84)
+    -   [字典](./data-structures.md#%E5%AD%97%E5%85%B8)
+    -   [序列](./data-structures.md#%E5%BA%8F%E5%88%97)
+    -   [集合](./data-structures.md#%E9%9B%86%E5%90%88)
+    -   [引用](./data-structures.md#%E5%BC%95%E7%94%A8)
+    -   [更多的字符串操作](./data-structures.md#%E6%9B%B4%E5%A4%9A%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C)
+    -   [小结](./data-structures.md#%E5%B0%8F%E7%BB%93)
+-   [解决问题的思路](./problem-solving.md)
+    -   [第一滴血](./problem-solving.md#%E7%AC%AC%E4%B8%80%E6%BB%B4%E8%A1%80)
+    -   [解决方案](./problem-solving.md#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+    -   [修改版](./problem-solving.md#%E4%BF%AE%E6%94%B9%E7%89%88)
+    -   [第三版](./problem-solving.md#%E7%AC%AC%E4%B8%89%E7%89%88)
+    -   [第四版](./problem-solving.md#%E7%AC%AC%E5%9B%9B%E7%89%88)
+    -   [更多改进](./problem-solving.md#%E6%9B%B4%E5%A4%9A%E6%94%B9%E8%BF%9B)
+    -   [软件开发过程](./problem-solving.md#%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B)
+    -   [小结](./problem-solving.md#%E5%B0%8F%E7%BB%93)
+-   [面向对象编程](./object-oriented-programming.md)
+    -   [面对对象编程](./object-oriented-programming.md#%E9%9D%A2%E5%AF%B9%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B)
+    -   [关于 self](./object-oriented-programming.md#%E5%85%B3%E4%BA%8E%20self)
+    -   [类](./object-oriented-programming.md#%E7%B1%BB)
+    -   [方法](./object-oriented-programming.md#%E6%96%B9%E6%B3%95)
+    -   [`__init__`方法 ](./object-oriented-programming.md#%60__init__%60%E6%96%B9%E6%B3%95%20)
+    -   [类和对象中的变量](./object-oriented-programming.md#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F)
+    -   [继承](./object-oriented-programming.md#%E7%BB%A7%E6%89%BF)
+    -   [总结](./object-oriented-programming.md#%E6%80%BB%E7%BB%93)
+-   [输入与输出](./input-and-output.md)
+    -   [用户输入](./input-and-output.md#%E7%94%A8%E6%88%B7%E8%BE%93%E5%85%A5)
+    -   [文件](./input-and-output.md#%E6%96%87%E4%BB%B6)
+    -   [Pickle](./input-and-output.md#Pickle)
+    -   [Unicode](./input-and-output.md#Unicode)
+    -   [小结](./input-and-output.md#%E5%B0%8F%E7%BB%93)
+-   [异常](./exceptions.md)
+    -   [错误](./exceptions.md#%E9%94%99%E8%AF%AF)
+    -   [异常](./exceptions.md#%E5%BC%82%E5%B8%B8)
+    -   [处理异常](./exceptions.md#%E5%A4%84%E7%90%86%E5%BC%82%E5%B8%B8)
+    -   [引发异常](./exceptions.md#%E5%BC%95%E5%8F%91%E5%BC%82%E5%B8%B8)
+    -   [Try ... Finally](./exceptions.md#Try%20...%20Finally)
+    -   [with 语句](./exceptions.md#with%20%E8%AF%AD%E5%8F%A5)
+    -   [小结](./exceptions.md#%E5%B0%8F%E7%BB%93)
+-   [标准库](./standard-library.md)
+    -   [sys 模块](./standard-library.md#sys%20%E6%A8%A1%E5%9D%97)
+    -   [logging 模块](./standard-library.md#logging%20%E6%A8%A1%E5%9D%97)
+    -   [Module of the Week 系列](./standard-library.md#Module%20of%20the%20Week%20%E7%B3%BB%E5%88%97)
+    -   [小结](./standard-library.md#%E5%B0%8F%E7%BB%93)
+-   [更多知识](./more.md)
+    -   [传递元组](./more.md#%E4%BC%A0%E9%80%92%E5%85%83%E7%BB%84)
+    -   [魔术方法](./more.md#%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95)
+    -   [单个语句块](./more.md#%E5%8D%95%E4%B8%AA%E8%AF%AD%E5%8F%A5%E5%9D%97)
+    -   [Lambda 格式](./more.md#Lambda%20%E6%A0%BC%E5%BC%8F)
+    -   [列表推导](./more.md#%E5%88%97%E8%A1%A8%E6%8E%A8%E5%AF%BC)
+    -   [在函数中接收元组和字典](./more.md#%E5%9C%A8%E5%87%BD%E6%95%B0%E4%B8%AD%E6%8E%A5%E6%94%B6%E5%85%83%E7%BB%84%E5%92%8C%E5%AD%97%E5%85%B8)
+    -   [assert 语句](./more.md#assert%20%E8%AF%AD%E5%8F%A5)
+    -   [装饰器](./more.md#%E8%A3%85%E9%A5%B0%E5%99%A8)
+    -   [Python 2 与 Python 3 的不同](./more.md#Python%202%20%E4%B8%8E%20Python%203%20%E7%9A%84%E4%B8%8D%E5%90%8C)
+    -   [小结](./more.md#%E5%B0%8F%E7%BB%93)
+-   [下一步的学习建议](./what-next.md)
+    -   [后续项目](./what-next.md#%E5%90%8E%E7%BB%AD%E9%A1%B9%E7%9B%AE)
+    -   [示例代码](./what-next.md#%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81)
+    -   [建议](./what-next.md#%E5%BB%BA%E8%AE%AE)
+    -   [视频](./what-next.md#%E8%A7%86%E9%A2%91)
+    -   [问答](./what-next.md#%E9%97%AE%E7%AD%94)
+    -   [教程](./what-next.md#%E6%95%99%E7%A8%8B)
+    -   [讨论](./what-next.md#%E8%AE%A8%E8%AE%BA)
+    -   [新闻](./what-next.md#%E6%96%B0%E9%97%BB)
+    -   [安装库](./what-next.md#%E5%AE%89%E8%A3%85%E5%BA%93)
+    -   [创建一个网站](./what-next.md#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99)
+    -   [图形化软件](./what-next.md#%E5%9B%BE%E5%BD%A2%E5%8C%96%E8%BD%AF%E4%BB%B6)
+    -   [各种实现](./what-next.md#%E5%90%84%E7%A7%8D%E5%AE%9E%E7%8E%B0)
+    -   [函数编程（适用于高级读者）](./what-next.md#%E5%87%BD%E6%95%B0%E7%BC%96%E7%A8%8B%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8E%E9%AB%98%E7%BA%A7%E8%AF%BB%E8%80%85%EF%BC%89)
+    -   [小结](./what-next.md#%E5%B0%8F%E7%BB%93)
+
+<!-- /MarkdownTOCs -->
+
+```yaml
+- ['about-python.md', '关于Python']
+- ['installation.md', '安装']
+- ['first-steps.md', '第一步']
+- ['basics.md', '基本语法']
+- ['operators-and-expressions.md', '运算符与表达式']
+- ['control-flow.md', '控制流']
+- ['functions.md', '函数']
+- ['modules.md', '模块']
+- ['data-structures.md', '数据结构']
+- ['problem-solving.md', '解决问题的思路']
+- ['object-oriented-programming.md', '面向对象编程']
+- ['input-and-output.md', '输入与输出']
+- ['exceptions.md', '异常']
+- ['standard-library.md', '标准库']
+- ['more.md', '更多知识']
+- ['what-next.md', '下一步的学习建议']
+```
+
