@@ -1,8 +1,8 @@
 ---
 date: '2018-12-11 23:24:05'
-tags: [dev, linux, lpic-1, architecture]
+tags: [dev, linux, lpic-1]
 title: 系统架构(System Architecture)
-updated: '2018-12-13 23:24:09'
+updated: '2018-12-13 23:30:31'
 ...
 ---
 # 系统架构(System Architecture)

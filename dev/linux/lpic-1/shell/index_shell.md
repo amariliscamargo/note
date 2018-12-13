@@ -1,8 +1,8 @@
 ---
 date: '2018-12-11 23:25:07'
-tags: [dev, linux, lpic-1, shell]
+tags: [dev, linux, lpic-1]
 title: Shell和Shell脚本(Shells and Shell Scripting)
-updated: '2018-12-13 23:25:10'
+updated: '2018-12-13 23:31:35'
 ...
 ---
 # Shell和Shell脚本(Shells and Shell Scripting)
