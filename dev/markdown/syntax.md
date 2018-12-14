@@ -2,7 +2,7 @@
 date: '2018-12-13 14:51:19'
 tags: [dev, markdown]
 title: Markdown 语法
-updated: '2018-12-13 21:25:50'
+updated: '2018-12-14 00:02:07'
 ...
 ---
 # Markdown 语法
@@ -290,6 +290,7 @@ __________________
 <a id="%E6%8C%87%E5%AE%9A%E5%9B%BE%E7%89%87%E7%9A%84%E6%98%BE%E7%A4%BA%E5%A4%A7%E5%B0%8F"></a>
 ### 指定图片的显示大小
 > 通过 `<img/>`来指定图片大小
+
 <img src="https://developer.cdn.mozilla.net/static/img/mdn-logo-sm.png" alt="mdn-logo" width="50" height="20">
 
 <a id="%E5%BC%BA%E8%B0%83-emstrong"></a>
