@@ -1,22 +1,33 @@
 ---
-title: 'tips'
 date: '2018-11-02 18:58:28'
-updated: '2018-11-02 19:05:00'
-tags: ['dev', 'macos']
+tags: [dev, macos]
+title: macos小技巧
+updated: '2018-12-15 19:46:30'
+...
 ---
 # macos小技巧
 
 <!-- MarkdownTOC -->
 
 - [软件:](#%E8%BD%AF%E4%BB%B6)
+    - [校验软件签名](#%E6%A0%A1%E9%AA%8C%E8%BD%AF%E4%BB%B6%E7%AD%BE%E5%90%8D)
+    - [软件安装](#%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85)
+    - [不更改系统语言的情况下,更改软件语言](#%E4%B8%8D%E6%9B%B4%E6%94%B9%E7%B3%BB%E7%BB%9F%E8%AF%AD%E8%A8%80%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E6%9B%B4%E6%94%B9%E8%BD%AF%E4%BB%B6%E8%AF%AD%E8%A8%80)
+    - [Finder 等软件不在 launchpad 中显示](#finder-%E7%AD%89%E8%BD%AF%E4%BB%B6%E4%B8%8D%E5%9C%A8-launchpad-%E4%B8%AD%E6%98%BE%E7%A4%BA)
+    - [Spotlight 无法关闭 Developer Results](#spotlight-%E6%97%A0%E6%B3%95%E5%85%B3%E9%97%AD-developer-results)
 - [输入法和字体](#%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%AD%97%E4%BD%93)
-- [其他好用的小功能](#%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%8A%9F%E8%83%BD)
+- [其他](#%E5%85%B6%E4%BB%96)
+    - [终端显示 bogon](#%E7%BB%88%E7%AB%AF%E6%98%BE%E7%A4%BA-bogon)
+    - [打开全键盘控制](#%E6%89%93%E5%BC%80%E5%85%A8%E9%94%AE%E7%9B%98%E6%8E%A7%E5%88%B6)
+    - [语音](#%E8%AF%AD%E9%9F%B3)
+    - [切换 root 用户](#%E5%88%87%E6%8D%A2-root-%E7%94%A8%E6%88%B7)
 
 <!-- /MarkdownTOC -->
 
 <a id="%E8%BD%AF%E4%BB%B6"></a>
-### 软件:
--   校验软件签名
+## 软件:
+<a id="%E6%A0%A1%E9%AA%8C%E8%BD%AF%E4%BB%B6%E7%AD%BE%E5%90%8D"></a>
+### 校验软件签名
     ```
     验证SHA-256
     openssl dgst -sha256 /path/to/file
@@ -25,13 +36,15 @@ tags: ['dev', 'macos']
     验证 MD5
     openssl md5 /path/to/file
     ```
--   软件安装
+<a id="%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85"></a>
+### 软件安装
     ```
       到 app store 中直接安装
       xxx.app 直接移动到 /Applications 即可;
       xxx.dmg 双击后解压出 xxx.app, 执行上一步操作
     ```
--   不更改系统语言的情况下,更改软件语言
+<a id="%E4%B8%8D%E6%9B%B4%E6%94%B9%E7%B3%BB%E7%BB%9F%E8%AF%AD%E8%A8%80%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E6%9B%B4%E6%94%B9%E8%BD%AF%E4%BB%B6%E8%AF%AD%E8%A8%80"></a>
+### 不更改系统语言的情况下,更改软件语言
     ```
     情况1: 使用 defaults 命令书
     例如: 更改 “Mac 帮助” 为中文优先,英文次之
@@ -41,14 +54,16 @@ tags: ['dev', 'macos']
       defaults write com.google.Chrome AppleLanguages "(zh-CN,en-US)" // 更改 chrome
     情况2: 对于 photoshop 等比较大的垃圾软件. 需要在网上下载语言包,然后替换到相应的目录.
     ```
--   Finder 等软件不在 launchpad 中显示
+<a id="finder-%E7%AD%89%E8%BD%AF%E4%BB%B6%E4%B8%8D%E5%9C%A8-launchpad-%E4%B8%AD%E6%98%BE%E7%A4%BA"></a>
+### Finder 等软件不在 launchpad 中显示
     ```
     创建这个程序的软连接到 /Application 目录下即可
     例如:
     ln -s /System/Library/CoreServices/Finder.app /Applications/Finder.app
     ```
 
--   Spotlight 无法关闭 Developer Results
+<a id="spotlight-%E6%97%A0%E6%B3%95%E5%85%B3%E9%97%AD-developer-results"></a>
+### Spotlight 无法关闭 Developer Results
     ```
       3.1 cd /Applications
       3.2 touch Xcode.app
@@ -56,7 +71,7 @@ tags: ['dev', 'macos']
     ```
 
 <a id="%E8%BE%93%E5%85%A5%E6%B3%95%E5%92%8C%E5%AD%97%E4%BD%93"></a>
-### 输入法和字体
+## 输入法和字体
 -   中英文严格1:2等宽字体 M+ [网址](http://mplus-fonts.osdn.jp/about.html)
 -   输入法: 唯一选择 rime
     ```
@@ -85,18 +100,29 @@ tags: ['dev', 'macos']
         重启系统即可
     ```
 
-<a id="%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E5%8A%9F%E8%83%BD"></a>
-### 其他好用的小功能
--   终端显示 bogon 更改主机名 `sudo scutil --set HostName Mac`
--   打开全键盘控制
-    ```
-    System Preferences > Keyboard > Shortcuts > All controls
-    Don't Save 按钮(备选按钮)有了一圈蓝边，这个意味着你可以通过空格键触发。不仅如此，你还可以用Tab键把蓝边转移到其他按钮，来实现全键盘控制。
-    ```
--   语音
-    ```
-    1. 命令行中使用 say 命令;
-    2. alt + Esc 快捷键
-    3. cmd + ctrl + d 打开词典
-    ```
+<a id="%E5%85%B6%E4%BB%96"></a>
+## 其他
 
+<a id="%E7%BB%88%E7%AB%AF%E6%98%BE%E7%A4%BA-bogon"></a>
+### 终端显示 bogon
+
+更改主机名 `sudo scutil --set HostName Mac`
+<a id="%E6%89%93%E5%BC%80%E5%85%A8%E9%94%AE%E7%9B%98%E6%8E%A7%E5%88%B6"></a>
+### 打开全键盘控制
+```
+System Preferences > Keyboard > Shortcuts > All controls
+Don't Save 按钮(备选按钮)有了一圈蓝边，这个意味着你可以通过空格键触发。不仅如此，你还可以用Tab键把蓝边转移到其他按钮，来实现全键盘控制。
+```
+<a id="%E8%AF%AD%E9%9F%B3"></a>
+### 语音
+```
+1. 命令行中使用 say 命令;
+2. alt + Esc 快捷键
+3. cmd + ctrl + d 打开词典
+```
+
+<a id="%E5%88%87%E6%8D%A2-root-%E7%94%A8%E6%88%B7"></a>
+### 切换 root 用户
+```
+sudo su
+```

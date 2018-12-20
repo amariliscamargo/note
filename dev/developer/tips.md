@@ -1,8 +1,9 @@
 ---
-title: 'tips'
 date: '2018-11-03 11:23:59'
-updated: '2018-12-03 11:23:59'
-tags: ['dev', 'developer']
+tags: [dev, developer]
+title: 开发记录
+updated: '2018-12-15 18:56:43'
+...
 ---
 # 开发记录
 
@@ -327,8 +328,19 @@ git push
 # 如果 git push 命令报错,运行下面的命令
 git push -u origin master -f
 ```
-
-
+添加远程仓库
+```bash
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:linkhanfeng/root-mac.git
+git push -u origin master
+```
+创建sshkey
+[ssh-key](https://help.github.com/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 
 <a id="git%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E6%90%AD%E5%BB%BA-centos7"></a>
 ### git服务器的搭建 centos7

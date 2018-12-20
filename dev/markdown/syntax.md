@@ -2,7 +2,7 @@
 date: '2018-12-13 14:51:19'
 tags: [dev, markdown]
 title: Markdown 语法
-updated: '2018-12-14 00:02:07'
+updated: '2018-12-17 15:20:33'
 ...
 ---
 # Markdown 语法
@@ -40,6 +40,7 @@ updated: '2018-12-14 00:02:07'
     - [语法高亮](#%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE)
     - [任务列表 `checkbox`](#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8-checkbox)
     - [表格 `table`](#%E8%A1%A8%E6%A0%BC-table)
+- [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
 
@@ -357,18 +358,22 @@ function fancyAlert(arg) {
 <a id="%E8%A1%A8%E6%A0%BC-table"></a>
 ### 表格 `table`
 ```markdown
-| 姓名   | 爱好   | 其他表头信息                |
-| :---   | ---:   | :----------:                |
-| 左对齐 | 右对齐 | 居中                        |
-| 小明   | 刚首   | content in the three column |
+| 姓名   | 爱好                     | 其他表头信息                |
+| :-     | -:                       | :-:                         |
+| 左对齐 | 右对齐 Lorem ipsum dolor | 居中对齐                    |
+| 小明   | 刚首                     | content in the three column |
 ```
 
-| 姓名   | 爱好   | 其他表头信息                |
-| :---   | ---:   | :----------:                |
-| 左对齐 | 右对齐 | 居中                        |
-| 小明   | 刚首   | content in the three column |
+| 姓名   | 爱好                     | 其他表头信息                |
+| :-     | -:                       | :-:                         |
+| 左对齐 | 右对齐 Lorem ipsum dolor | 居中对齐                    |
+| 小明   | 刚首                     | content in the three column |
 
 
+
+<a id="%E5%8F%82%E8%80%83"></a>
+## 参考
+[gfm][] | [gfm-doc][] | [mastering-markdown][]
 
 [gfm]:https://help.github.com/articles/basic-writing-and-formatting-syntax/
 [gfm-doc]:https://github.github.com/gfm/

@@ -1,8 +1,9 @@
 ---
-title: 'iterm2'
 date: '2018-12-02 19:04:53'
-updated: '2018-12-02 19:04:53'
-tags: ['dev', 'macos']
+tags: [dev, macos]
+title: iTerm2
+updated: '2018-12-15 18:57:40'
+...
 ---
 # iTerm2
 
@@ -46,4 +47,9 @@ iTerm2 - Preferences - Profiles - Colors 中选择 `Solarized Dark`
 -   `alias -s` 指定特定的方式打开文件
     ```
     alias -s md=open // 表明在命令行中输入 md 后缀的文件名，会用 open 命令打开
+    ```
+-   设置不提示某一个 git 仓库
+    ```
+    # 在当前 git 根目录下运行下面的命令
+    sudo git config --add oh-my-zsh.hide-status 1
     ```
