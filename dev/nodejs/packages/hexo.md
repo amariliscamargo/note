@@ -2,7 +2,7 @@
 date: '2018-12-02 19:52:29'
 tags: [dev, nodejs, packages]
 title: Hexo 使用指南
-updated: '2018-12-14 21:33:33'
+updated: '2018-12-20 11:28:50'
 ...
 ---
 # Hexo 使用指南
@@ -13,18 +13,18 @@ updated: '2018-12-14 21:33:33'
 - [初始化及目录结构](#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
 - [配置](#%E9%85%8D%E7%BD%AE)
 - [命令](#%E5%91%BD%E4%BB%A4)
-    - [generate 生成](#generate-%E7%94%9F%E6%88%90)
-    - [deploy 部署](#deploy-%E9%83%A8%E7%BD%B2)
-    - [init](#init)
-    - [new](#new)
-    - [clean](#clean)
+  - [generate 生成](#generate-%E7%94%9F%E6%88%90)
+  - [deploy 部署](#deploy-%E9%83%A8%E7%BD%B2)
+  - [init](#init)
+  - [new](#new)
+  - [clean](#clean)
 - [主题安装](#%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85)
 - [默认主题\(landscape\)优化](#%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98landscape%E4%BC%98%E5%8C%96)
-        - [文件夹名称, 中划线小写](#%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D%E7%A7%B0-%E4%B8%AD%E5%88%92%E7%BA%BF%E5%B0%8F%E5%86%99)
-        - [替换谷歌字体 \(众所周知的原因\)](#%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8C%E5%AD%97%E4%BD%93-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5%E7%9A%84%E5%8E%9F%E5%9B%A0)
-        - [替换谷歌cnd加速地址 \(众所周知\)](#%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8Ccnd%E5%8A%A0%E9%80%9F%E5%9C%B0%E5%9D%80-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5)
-        - [去掉幻灯片播放图片 fancybox: false](#%E5%8E%BB%E6%8E%89%E5%B9%BB%E7%81%AF%E7%89%87%E6%92%AD%E6%94%BE%E5%9B%BE%E7%89%87-fancybox-false)
-        - [修复相对链接\(./ or ../\) 无法正确解析的问题](#%E4%BF%AE%E5%A4%8D%E7%9B%B8%E5%AF%B9%E9%93%BE%E6%8E%A5-or--%E6%97%A0%E6%B3%95%E6%AD%A3%E7%A1%AE%E8%A7%A3%E6%9E%90%E7%9A%84%E9%97%AE%E9%A2%98)
+    - [文件夹名称, 中划线小写](#%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D%E7%A7%B0-%E4%B8%AD%E5%88%92%E7%BA%BF%E5%B0%8F%E5%86%99)
+    - [替换谷歌字体 \(众所周知的原因\)](#%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8C%E5%AD%97%E4%BD%93-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5%E7%9A%84%E5%8E%9F%E5%9B%A0)
+    - [替换谷歌cnd加速地址 \(众所周知\)](#%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8Ccnd%E5%8A%A0%E9%80%9F%E5%9C%B0%E5%9D%80-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5)
+    - [去掉幻灯片播放图片 fancybox: false](#%E5%8E%BB%E6%8E%89%E5%B9%BB%E7%81%AF%E7%89%87%E6%92%AD%E6%94%BE%E5%9B%BE%E7%89%87-fancybox-false)
+    - [修复相对链接\(./ or ../\) 无法正确解析的问题](#%E4%BF%AE%E5%A4%8D%E7%9B%B8%E5%AF%B9%E9%93%BE%E6%8E%A5-or--%E6%97%A0%E6%B3%95%E6%AD%A3%E7%A1%AE%E8%A7%A3%E6%9E%90%E7%9A%84%E9%97%AE%E9%A2%98)
 
 <!-- /MarkdownTOC -->
 
@@ -150,7 +150,7 @@ hexo clean
     v6.0.1
     v6.0.0
     ...
-    $ git checkout tags/v6.0.0
+    $ git checkout tags/v6.6.0
     ```
 4.  修改配置文件 `_config.yml` 中 `theme:`
     ```bash
