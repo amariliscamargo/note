@@ -1,6 +1,7 @@
 ---
 date: '2018-11-03 11:23:59'
 tags: [dev, developer]
+categories: [dev, developer]
 title: 开发记录
 updated: '2018-12-15 18:56:43'
 ...

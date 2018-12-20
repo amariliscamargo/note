@@ -1,6 +1,7 @@
 ---
 date: '2018-12-10 18:54:03'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: ' MySQL 与 SQL标准'
 updated: '2018-12-10 19:09:48'
 ...

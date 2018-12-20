@@ -1,6 +1,7 @@
 ---
 date: '2018-12-04 12:57:28'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: MySQL 5.7 参考手册
 updated: '2018-12-11 17:07:05'
 ...

@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 16:03:43'
 tags: [dev, python]
+categories: [dev, python]
 title: 数据结构
 updated: '2018-12-11 17:18:28'
 ...

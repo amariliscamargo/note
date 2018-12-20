@@ -3,6 +3,7 @@ title: '1.3 MySQL数据库管理系统概述'
 date: '2018-12-04 23:08:06'
 updated: '2018-12-05 18:58:16'
 tags: ['life', 'book', 'technology', 'mysql-doc']
+categories: ['life', 'book', 'technology', 'mysql-doc']
 ---
 # 1.3 MySQL数据库管理系统概述
 <!-- MarkdownTOC -->

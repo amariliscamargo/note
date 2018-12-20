@@ -1,8 +1,10 @@
 ---
-title: 'README'
+categories: [life, book, technology]
 date: '2018-12-03 11:55:12'
-updated: '2018-12-03 11:55:25'
-tags: ['life', 'book', 'technology', 'php', '草稿']
+tags: [life, book, technology, php, 草稿]
+title: 深入PHP 面向对象,模式与实践 (第3版)
+updated: '2018-12-20 16:42:31'
+...
 ---
 # 深入PHP 面向对象,模式与实践 (第3版)
 

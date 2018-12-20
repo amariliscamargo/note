@@ -1,6 +1,7 @@
 ---
 date: '2018-11-02 18:58:28'
 tags: [dev, macos]
+categories: [dev, macos]
 title: macos小技巧
 updated: '2018-12-15 19:46:30'
 ...

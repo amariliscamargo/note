@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 18:19:50'
 tags: [dev, python]
+categories: [dev, python]
 title: 标准库
 updated: '2018-12-11 17:19:14'
 ...

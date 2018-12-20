@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:32:23'
 tags: [dev, python]
+categories: [dev, python]
 title: 第一步
 updated: '2018-12-11 17:18:43'
 ...

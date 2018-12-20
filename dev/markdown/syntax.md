@@ -1,6 +1,7 @@
 ---
 date: '2018-12-13 14:51:19'
 tags: [dev, markdown]
+categories: [dev, markdown]
 title: Markdown 语法
 updated: '2018-12-17 15:20:33'
 ...

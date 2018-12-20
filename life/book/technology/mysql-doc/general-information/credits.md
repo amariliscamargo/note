@@ -1,6 +1,7 @@
 ---
 date: '2018-12-10 19:14:33'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: 1.9 荣誉贡献者
 updated: '2018-12-10 19:19:22'
 ...

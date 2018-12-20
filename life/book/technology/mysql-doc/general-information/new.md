@@ -1,6 +1,7 @@
 ---
 date: '2018-12-05 18:03:21'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: 1.4 MySQL 5.7中的新功能
 updated: '2018-12-10 18:36:15'
 ...

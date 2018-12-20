@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 18:23:19'
 tags: [dev, python]
+categories: [dev, python]
 title: 更多知识
 updated: '2018-12-11 17:19:01'
 ...

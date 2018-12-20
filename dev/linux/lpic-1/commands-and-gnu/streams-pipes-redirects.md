@@ -1,6 +1,7 @@
 ---
 date: '2018-12-17 18:30:53'
 tags: [dev, linux, lpic-1, commands-and-gnu]
+categories: [dev, linux, lpic-1, commands-and-gnu]
 title: 字节 & 字节流 & 管道 & 重定向
 updated: '2018-12-19 15:26:06'
 ...

@@ -1,6 +1,7 @@
 ---
 date: '2018-12-07 14:37:31'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: 1.6 MySQL 获取帮助资源
 updated: '2018-12-10 18:50:34'
 ...

@@ -1,6 +1,7 @@
 ---
 date: '2018-12-16 21:36:41'
 tags: [dev, linux, lpic-1, filesystems]
+categories: [dev, linux, lpic-1, filesystems]
 title: 管理文件权限和所有权
 updated: '2018-12-18 15:41:34'
 ...

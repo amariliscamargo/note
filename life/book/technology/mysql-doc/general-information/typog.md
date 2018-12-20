@@ -3,6 +3,7 @@ title: '1.2 印刷和语法约定'
 date: '2018-12-04 23:02:30'
 updated: '2018-12-05 18:58:09'
 tags: ['life', 'book', 'technology', 'mysql-doc']
+categories: ['life', 'book', 'technology', 'mysql-doc']
 ---
 ## 1.2 印刷和语法约定
 <!-- MarkdownTOC -->

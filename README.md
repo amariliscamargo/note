@@ -3,6 +3,7 @@ title: 'README'
 date: '2018-11-02 19:08:44'
 updated: '2018-12-04 17:41:33'
 tags: []
+categories: []
 ---
 # blog
 

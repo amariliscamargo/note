@@ -3,6 +3,7 @@ title: '1.1 关于本手册'
 date: '2018-12-04 22:42:49'
 updated: '2018-12-05 18:58:01'
 tags: ['life', 'book', 'technology', 'mysql-doc']
+categories: ['life', 'book', 'technology', 'mysql-doc']
 ---
 # 1.1 关于本手册
 <!-- MarkdownTOC -->

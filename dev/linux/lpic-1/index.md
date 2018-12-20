@@ -1,6 +1,7 @@
 ---
 date: '2018-12-12 13:55:23'
 tags: [dev, linux, lpic-1]
+categories: [dev, linux, lpic-1]
 title: LPIC-1 Linux 管理员
 updated: '2018-12-17 18:31:52'
 ...

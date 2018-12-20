@@ -1,6 +1,7 @@
 ---
 date: '2018-12-20 11:34:03'
 tags: [dev, developer]
+categories: [dev, developer]
 title: shadowsocket 搭建
 updated: '2018-12-20 11:35:25'
 ...

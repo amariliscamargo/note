@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:12:36'
 tags: [dev, python]
+categories: [dev, python]
 title: Python 目录
 updated: '2018-12-10 00:11:00'
 ...

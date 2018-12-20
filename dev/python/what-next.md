@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 18:30:34'
 tags: [dev, python]
+categories: [dev, python]
 title: 下一步的学习建议
 updated: '2018-12-11 17:19:18'
 ...

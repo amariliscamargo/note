@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:41:20'
 tags: [dev, python]
+categories: [dev, python]
 title: 运算符与表达式
 updated: '2018-12-09 18:39:33'
 ...

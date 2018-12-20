@@ -1,6 +1,7 @@
 ---
 date: '2018-12-14 12:10:46'
 tags: [dev, macos]
+categories: [dev, macos]
 title: app lanucher | Quicksilver
 updated: '2018-12-14 17:39:23'
 ...

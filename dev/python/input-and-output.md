@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 16:15:16'
 tags: [dev, python]
+categories: [dev, python]
 title: 输入与输出
 updated: '2018-12-09 18:38:52'
 ...

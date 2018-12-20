@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:25:49'
 tags: [dev, python]
+categories: [dev, python]
 title: Python 安装
 updated: '2018-12-09 15:30:17'
 ...

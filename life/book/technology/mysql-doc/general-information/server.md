@@ -1,6 +1,7 @@
 ---
 date: '2018-12-07 13:34:54'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: 1.5 MySQL 5.7中添加,弃用,或删除的配置项
 updated: '2018-12-10 18:35:59'
 ...

@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 16:06:42'
 tags: [dev, python]
+categories: [dev, python]
 title: 解决问题的思路
 updated: '2018-12-11 17:19:10'
 ...

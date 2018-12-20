@@ -1,6 +1,7 @@
 ---
 date: '2018-12-18 16:12:24'
 tags: [dev, linux, commands]
+categories: [dev, linux, commands]
 title: 数据的显示
 updated: '2018-12-19 12:51:02'
 ...

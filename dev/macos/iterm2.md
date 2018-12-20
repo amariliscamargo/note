@@ -1,6 +1,7 @@
 ---
 date: '2018-12-02 19:04:53'
 tags: [dev, macos]
+categories: [dev, macos]
 title: iTerm2
 updated: '2018-12-15 18:57:40'
 ...

@@ -1,6 +1,7 @@
 ---
 date: '2018-12-04 12:42:49'
 tags: [life, book, technology, mysql-doc]
+categories: [life, book, technology, mysql-doc]
 title: 前言和法律声明 | Preface and Legal Notices
 updated: '2018-12-10 19:35:46'
 ...

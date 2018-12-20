@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:56:21'
 tags: [dev, python]
+categories: [dev, python]
 title: 模块
 updated: '2018-12-09 18:39:03'
 ...

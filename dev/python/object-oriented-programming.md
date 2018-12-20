@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 16:09:26'
 tags: [dev, python]
+categories: [dev, python]
 title: 面向对象编程
 updated: '2018-12-11 17:19:06'
 ...

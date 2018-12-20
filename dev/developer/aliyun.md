@@ -1,6 +1,7 @@
 ---
 date: '2018-12-15 20:06:13'
 tags: [dev, developer]
+categories: [dev, developer]
 title: 阿里云-云服务器 (ECS) docker+laradock+git
 updated: '2018-12-16 20:23:54'
 ...

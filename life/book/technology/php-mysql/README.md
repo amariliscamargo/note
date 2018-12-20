@@ -1,8 +1,10 @@
 ---
-title: 'PHP和MySQL Web开发 (第5版)'
+categories: [life, book, technology]
 date: '2018-12-03 11:43:22'
-updated: '2018-12-03 11:55:19'
-tags: ['life', 'book', 'technology', 'php', 'mysql', '草稿']
+tags: [life, book, technology, php, mysql, 草稿]
+title: PHP和MySQL Web开发 (第5版)
+updated: '2018-12-20 16:41:52'
+...
 ---
 # PHP和MySQL Web开发 (第5版)
 

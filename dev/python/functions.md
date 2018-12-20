@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:54:43'
 tags: [dev, python]
+categories: [dev, python]
 title: 函数
 updated: '2018-12-09 18:38:10'
 ...

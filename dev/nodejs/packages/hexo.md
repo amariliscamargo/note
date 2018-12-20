@@ -1,8 +1,9 @@
 ---
 date: '2018-12-02 19:52:29'
 tags: [dev, nodejs, packages]
+categories: [dev, nodejs, packages]
 title: Hexo 使用指南
-updated: '2018-12-20 11:28:50'
+updated: '2018-12-20 14:44:47'
 ...
 ---
 # Hexo 使用指南
@@ -25,6 +26,10 @@ updated: '2018-12-20 11:28:50'
     - [替换谷歌cnd加速地址 \(众所周知\)](#%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8Ccnd%E5%8A%A0%E9%80%9F%E5%9C%B0%E5%9D%80-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5)
     - [去掉幻灯片播放图片 fancybox: false](#%E5%8E%BB%E6%8E%89%E5%B9%BB%E7%81%AF%E7%89%87%E6%92%AD%E6%94%BE%E5%9B%BE%E7%89%87-fancybox-false)
     - [修复相对链接\(./ or ../\) 无法正确解析的问题](#%E4%BF%AE%E5%A4%8D%E7%9B%B8%E5%AF%B9%E9%93%BE%E6%8E%A5-or--%E6%97%A0%E6%B3%95%E6%AD%A3%E7%A1%AE%E8%A7%A3%E6%9E%90%E7%9A%84%E9%97%AE%E9%A2%98)
+- [Next 主题优化](#next-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96)
+  - [文章目录从第二级 h2 开始解析](#%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95%E4%BB%8E%E7%AC%AC%E4%BA%8C%E7%BA%A7-h2-%E5%BC%80%E5%A7%8B%E8%A7%A3%E6%9E%90)
+  - [无法显示标签和分类](#%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB)
+- [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
 
@@ -159,8 +164,10 @@ hexo clean
 
 <a id="%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98landscape%E4%BC%98%E5%8C%96"></a>
 ## 默认主题(landscape)优化
+
 <a id="%E6%96%87%E4%BB%B6%E5%A4%B9%E5%90%8D%E7%A7%B0-%E4%B8%AD%E5%88%92%E7%BA%BF%E5%B0%8F%E5%86%99"></a>
 #### 文件夹名称, 中划线小写
+
 <a id="%E6%9B%BF%E6%8D%A2%E8%B0%B7%E6%AD%8C%E5%AD%97%E4%BD%93-%E4%BC%97%E6%89%80%E5%91%A8%E7%9F%A5%E7%9A%84%E5%8E%9F%E5%9B%A0"></a>
 #### 替换谷歌字体 (众所周知的原因)
 ```js
@@ -203,5 +210,29 @@ fancybox: false // fancybox 图片幻灯片展示,没必要
   })
 ```
 
+<a id="next-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96"></a>
+## Next 主题优化
+
+<a id="%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95%E4%BB%8E%E7%AC%AC%E4%BA%8C%E7%BA%A7-h2-%E5%BC%80%E5%A7%8B%E8%A7%A3%E6%9E%90"></a>
+### 文章目录从第二级 h2 开始解析
+```
+/hexo/node_modules/hexo/lib/plugins/helper/toc.js
+const headingsSelector = ['h1', h2', 'h3', 'h4', 'h5', 'h6'].slice(0, headingsMaxDepth).join(',');
+const headingsSelector = ['h2', 'h3', 'h4', 'h5', 'h6'].slice(0, headingsMaxDepth).join(',');
+```
+
+<a id="%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB"></a>
+### 无法显示标签和分类
+```
+hexo new page tags
+hexo new page categories
+```
+在 `source/tags/index.md` 文件中,添加 `add line: type: "tags"`
+在 `source/categories/index.m` 文件中,添加 `add line: type: "categories"`
+
+<a id="%E5%8F%82%E8%80%83"></a>
+## 参考
+[next][] | [Issue #51][]
 
 [next]:https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/INSTALLATION.md
+[Issue #51]:https://github.com/iissnan/hexo-theme-next/issues/51

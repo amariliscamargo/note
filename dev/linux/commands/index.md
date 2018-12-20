@@ -1,6 +1,7 @@
 ---
 date: '2018-12-18 15:35:27'
 tags: [dev, linux, commands]
+categories: [dev, linux, commands]
 title: 命令及分类
 updated: '2018-12-19 11:51:35'
 ...

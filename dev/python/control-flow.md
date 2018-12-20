@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 15:50:51'
 tags: [dev, python]
+categories: [dev, python]
 title: 控制流
 updated: '2018-12-09 18:37:39'
 ...

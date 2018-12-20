@@ -1,6 +1,7 @@
 ---
 date: '2018-12-15 11:13:20'
 tags: [dev, git]
+categories: [dev, git]
 title: git 学习笔记
 updated: '2018-12-15 11:16:31'
 ...

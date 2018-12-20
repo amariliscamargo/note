@@ -1,6 +1,7 @@
 ---
 date: '2018-12-09 18:14:45'
 tags: [dev, python]
+categories: [dev, python]
 title: 异常
 updated: '2018-12-09 18:37:55'
 ...
