@@ -1,9 +1,10 @@
 ---
-title: '1.1 关于本手册'
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-04 22:42:49'
-updated: '2018-12-05 18:58:01'
-tags: ['life', 'book', 'technology', 'mysql-doc']
-categories: ['life', 'book', 'technology', 'mysql-doc']
+tags: [life, book, technology, mysql-doc]
+title: 1.1 关于本手册
+updated: '2018-12-21 12:47:53'
+...
 ---
 # 1.1 关于本手册
 <!-- MarkdownTOC -->
@@ -11,7 +12,8 @@ categories: ['life', 'book', 'technology', 'mysql-doc']
 - [手册说明](#%E6%89%8B%E5%86%8C%E8%AF%B4%E6%98%8E)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
+<a id="%E6%89%8B%E5%86%8C%E8%AF%B4%E6%98%8E"></a>
 ## 手册说明
 由于本手册可作为参考，因此`不提供有关SQL或关系数据库概念`的一般说明。
 

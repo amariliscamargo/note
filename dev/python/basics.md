@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 15:36:40'
 tags: [dev, python]
-categories: [dev, python]
 title: 基本语法
-updated: '2018-12-09 18:36:59'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 基本语法
@@ -23,7 +23,7 @@ updated: '2018-12-09 18:36:59'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 > 仅仅打印输出 hello world 是不够的  
 > 你还想要: 通过一些输入，操作它并从中得到一些东西等  
 > 在本章中我们还会学习其它的一些概念

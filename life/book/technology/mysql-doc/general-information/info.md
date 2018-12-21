@@ -1,9 +1,9 @@
 ---
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-07 14:37:31'
 tags: [life, book, technology, mysql-doc]
-categories: [life, book, technology, mysql-doc]
 title: 1.6 MySQL 获取帮助资源
-updated: '2018-12-10 18:50:34'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 1.6 MySQL 获取帮助资源
@@ -16,7 +16,7 @@ updated: '2018-12-10 18:50:34'
 - [1.6.5 MySQL企业版](#165-mysql%E4%BC%81%E4%B8%9A%E7%89%88)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 > 本节列出了您可能会发现有用的其他信息的来源，例如MySQL网站，邮件列表，用户论坛和Internet中继聊天。
 

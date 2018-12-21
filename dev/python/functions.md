@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 15:54:43'
 tags: [dev, python]
-categories: [dev, python]
 title: 函数
-updated: '2018-12-09 18:38:10'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 函数
@@ -20,7 +20,7 @@ updated: '2018-12-09 18:38:10'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > 函数是程序中可以复用的部件。  
 > 函数允许你为一个语句块取一个特定名字；通过使用这个特定的名字，来调用这个语句块

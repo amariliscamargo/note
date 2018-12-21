@@ -1,9 +1,9 @@
 ---
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-10 18:54:03'
 tags: [life, book, technology, mysql-doc]
-categories: [life, book, technology, mysql-doc]
 title: ' MySQL 与 SQL标准'
-updated: '2018-12-10 19:09:48'
+updated: '2018-12-21 12:47:44'
 ...
 ---
 #  MySQL 与 SQL标准
@@ -14,7 +14,7 @@ updated: '2018-12-10 19:09:48'
 - [1.8.3 MySQL如何处理约束](#183-mysql%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E7%BA%A6%E6%9D%9F)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 我们对该产品的主要目标之一是继续努力遵守SQL标准，但不会牺牲速度或可靠性。  
 我们不怕添加SQL扩展或支持非SQL功能，如果这大大增加了可用性。例如:13.2.4节“HANDLER语法”  

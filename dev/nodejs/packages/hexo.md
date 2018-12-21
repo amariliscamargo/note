@@ -1,9 +1,9 @@
 ---
+categories: [dev, nodejs, packages]
 date: '2018-12-02 19:52:29'
 tags: [dev, nodejs, packages]
-categories: [dev, nodejs, packages]
 title: Hexo 使用指南
-updated: '2018-12-20 14:44:47'
+updated: '2018-12-21 11:57:20'
 ...
 ---
 # Hexo 使用指南
@@ -193,12 +193,15 @@ fancybox: false // fancybox 图片幻灯片展示,没必要
 <a id="%E4%BF%AE%E5%A4%8D%E7%9B%B8%E5%AF%B9%E9%93%BE%E6%8E%A5-or--%E6%97%A0%E6%B3%95%E6%AD%A3%E7%A1%AE%E8%A7%A3%E6%9E%90%E7%9A%84%E9%97%AE%E9%A2%98"></a>
 #### 修复相对链接(./ or ../) 无法正确解析的问题
 ```js
-// 修改 /themes/landscape/source/js/script.js
+  // 修改 /themes/landscape/source/js/script.js
+  // 修复相对链接(./ or ../) 无法正确解析的问题
   $('a').on('click', function (event) {
     if (this.hasAttribute('href')){
       href_ext = this.getAttribute('href')
+      cur_pathname = document.location.pathname
       if (typeof href_ext == 'string' && (href_ext.slice(0, 2) == './' || href_ext.slice(0, 3) == '../')) {
         event.preventDefault();
+        if (cur_pathname.length < 2) return
         href = href_ext.slice(0, href_ext.lastIndexOf('.'))
         if (href_ext.slice(0, 2) == './') {
           document.location.href = '.' + href
@@ -208,6 +211,21 @@ fancybox: false // fancybox 图片幻灯片展示,没必要
       }
     }
   })
+
+  // 删除多余的 一级标签和 MarkDownToc
+  (function (){
+    var hide_title = document.querySelector('.post-body > h1')
+    hide_title.style.display = 'none'
+    try {
+      var pathStr = document.location.pathname
+      if (hide_title.nextSibling.data == " MarkdownTOC " && (pathStr.lastIndexOf('index/') != pathStr.length-6)) {
+        hide_title.nextElementSibling.style.display = "none"
+      }
+    } catch (e) {
+      console.log('Error:: 没有 toc');
+    }
+  })()
+
 ```
 
 <a id="next-%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96"></a>

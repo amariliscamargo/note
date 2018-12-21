@@ -1,9 +1,9 @@
 ---
+categories: [dev, linux, lpic-1, commands-and-gnu]
 date: '2018-12-17 18:30:53'
 tags: [dev, linux, lpic-1, commands-and-gnu]
-categories: [dev, linux, lpic-1, commands-and-gnu]
 title: 字节 & 字节流 & 管道 & 重定向
-updated: '2018-12-19 15:26:06'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 字节 & 字节流 & 管道 & 重定向
@@ -25,7 +25,7 @@ updated: '2018-12-19 15:26:06'
 - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 <a id="%E4%BD%8D-bit"></a>
 ## 位 (bit)

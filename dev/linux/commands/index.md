@@ -1,9 +1,9 @@
 ---
+categories: [dev, linux, commands]
 date: '2018-12-18 15:35:27'
 tags: [dev, linux, commands]
-categories: [dev, linux, commands]
 title: 命令及分类
-updated: '2018-12-19 11:51:35'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 命令及分类
@@ -14,7 +14,7 @@ updated: '2018-12-19 11:51:35'
     -   [参考](./data-display.md#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOCs -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 ```yaml
 - ['file.md', '文件']

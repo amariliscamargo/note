@@ -1,9 +1,10 @@
 ---
-title: '第1章 一般信息'
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-04 21:33:26'
-updated: '2018-12-05 18:57:55'
-tags: ['life', 'book', 'technology', 'mysql-doc']
-categories: ['life', 'book', 'technology', 'mysql-doc']
+tags: [life, book, technology, mysql-doc]
+title: '#第1章 一般信息'
+updated: '2018-12-21 12:47:53'
+...
 ---
 ## 第1章 一般信息
 <!-- MarkdownTOC -->
@@ -12,12 +13,14 @@ categories: ['life', 'book', 'technology', 'mysql-doc']
 - [重要章节索引](#%E9%87%8D%E8%A6%81%E7%AB%A0%E8%8A%82%E7%B4%A2%E5%BC%95)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
+<a id="mysql-%E4%BB%8B%E7%BB%8D"></a>
 ## mysql 介绍
 MySQL™软件提供了一个非常快速，多线程，多用户，强大的SQL（结构化查询语言）数据库服务器。
 
 MySQL软件是双重授权的,用户可以选择根据GNU通用公共许可证的条款将MySQL软件用作开源产品，也可以从Oracle购买标准商业许可证。
 
+<a id="%E9%87%8D%E8%A6%81%E7%AB%A0%E8%8A%82%E7%B4%A2%E5%BC%95"></a>
 ## 重要章节索引
 -   MySQL数据库服务器功能的讨论: [第1.3.2节“MySQL的主要功能”]()
 -   新功能概述: [1.4节“MySQL 5.7中的新增功能”]()

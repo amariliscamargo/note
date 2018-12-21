@@ -1,9 +1,10 @@
 ---
-title: '1.3 MySQL数据库管理系统概述'
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-04 23:08:06'
-updated: '2018-12-05 18:58:16'
-tags: ['life', 'book', 'technology', 'mysql-doc']
-categories: ['life', 'book', 'technology', 'mysql-doc']
+tags: [life, book, technology, mysql-doc]
+title: 1.3 MySQL数据库管理系统概述
+updated: '2018-12-21 12:47:33'
+...
 ---
 # 1.3 MySQL数据库管理系统概述
 <!-- MarkdownTOC -->
@@ -13,8 +14,9 @@ categories: ['life', 'book', 'technology', 'mysql-doc']
 - [1.3.3 MySQL的历史](#133-mysql%E7%9A%84%E5%8E%86%E5%8F%B2)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
+<a id="131-%E4%BB%80%E4%B9%88%E6%98%AFmysql%EF%BC%9F"></a>
 ## 1.3.1 什么是MySQL？
 MySQL是最受欢迎的开源SQL数据库管理系统，由 Oracle Corporation 开发，分发和支持。
 
@@ -37,10 +39,12 @@ MySQL是最受欢迎的开源SQL数据库管理系统，由 Oracle Corporation �
 -   MySQL数据库服务器非常快速，可靠，可扩展且易于使用。
 -   MySQL Server适用于客户端/服务器或嵌入式系统。 
 
+<a id="132-mysql%E7%9A%84%E4%B8%BB%E8%A6%81%E7%89%B9%E7%82%B9"></a>
 ## 1.3.2 MySQL的主要特点
 -   内部和可移植性: 用C和C ++编写。
 -   支持大型数据库: 200,000个表和大约5,000,000,000行
 -   客户端和工具: 令行程序(mysqldump, mysqladmin, mysqlcheck) 图形程序 Workbench
+<a id="133-mysql%E7%9A%84%E5%8E%86%E5%8F%B2"></a>
 ## 1.3.3 MySQL的历史
 由于不满 mSQL 的性能开发了MySQL
 MySQL联合创始人Monty Widenius的女儿My的名字命名

@@ -1,16 +1,16 @@
 ---
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-10 19:14:33'
 tags: [life, book, technology, mysql-doc]
-categories: [life, book, technology, mysql-doc]
 title: 1.9 荣誉贡献者
-updated: '2018-12-10 19:19:22'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 1.9 荣誉贡献者
 <!-- MarkdownTOC -->
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 1.9.1 MySQL的贡献者
 1.9.2 文件编辑和翻译

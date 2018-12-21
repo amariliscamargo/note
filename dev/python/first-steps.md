@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 15:32:23'
 tags: [dev, python]
-categories: [dev, python]
 title: 第一步
-updated: '2018-12-11 17:18:43'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 第一步
@@ -19,7 +19,7 @@ updated: '2018-12-11 17:18:43'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 -   'Hello World' 这将教你如何编写、保存和运行 Python 程序。  
 -   运行Python的两种方法:

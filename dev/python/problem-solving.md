@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 16:06:42'
 tags: [dev, python]
-categories: [dev, python]
 title: 解决问题的思路
-updated: '2018-12-11 17:19:10'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 解决问题的思路
@@ -19,7 +19,7 @@ updated: '2018-12-11 17:19:10'
 - [小结](#%E5%B0%8F%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > 我们已经探索了 Python 的多个部分，从现在开始我们要着眼于把它们糅合在一起工作  
 > 我们要用它们来设计并且写出可以很好的解决某些事的程序。  

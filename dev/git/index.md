@@ -1,16 +1,16 @@
 ---
+categories: [dev, git]
 date: '2018-12-15 11:13:20'
 tags: [dev, git]
-categories: [dev, git]
 title: git 学习笔记
-updated: '2018-12-15 11:16:31'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # git 学习笔记
 <!-- MarkdownTOC -->
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > [git][] 是一个流行的 `分布式` `版本控制` 系统
 

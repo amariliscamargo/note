@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 18:19:50'
 tags: [dev, python]
-categories: [dev, python]
 title: 标准库
-updated: '2018-12-11 17:19:14'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 标准库
@@ -15,7 +15,7 @@ updated: '2018-12-11 17:19:14'
 - [小结](#%E5%B0%8F%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > Python 标准库包含超大量的实用模块，同时其实是每个 Python 标准安装的一部分。
 > 熟悉 Python 标准库, 很多问题可以快速解决。

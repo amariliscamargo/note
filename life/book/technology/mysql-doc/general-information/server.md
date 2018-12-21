@@ -1,9 +1,9 @@
 ---
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-07 13:34:54'
 tags: [life, book, technology, mysql-doc]
-categories: [life, book, technology, mysql-doc]
 title: 1.5 MySQL 5.7中添加,弃用,或删除的配置项
-updated: '2018-12-10 18:35:59'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 1.5 MySQL 5.7中添加,弃用,或删除的配置项
@@ -14,7 +14,7 @@ updated: '2018-12-10 18:35:59'
 - [QL 5.7 删除的选项或变量](#ql-57-%E5%88%A0%E9%99%A4%E7%9A%84%E9%80%89%E9%A1%B9%E6%88%96%E5%8F%98%E9%87%8F)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 <a id="ql-57-%E5%BC%95%E5%85%A5%E7%9A%84%E9%80%89%E9%A1%B9%E6%88%96%E5%8F%98%E9%87%8F"></a>
 ## QL 5.7 引入的选项或变量

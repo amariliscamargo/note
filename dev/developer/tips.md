@@ -1,9 +1,9 @@
 ---
+categories: [dev, developer]
 date: '2018-11-03 11:23:59'
 tags: [dev, developer]
-categories: [dev, developer]
 title: 开发记录
-updated: '2018-12-15 18:56:43'
+updated: '2018-12-21 19:31:02'
 ...
 ---
 # 开发记录
@@ -453,8 +453,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ### SSH通讯 centos7
 1.  首先用密码登陆到你打算使用密钥登陆的用户(假设用户名为: 小红帽), 然后创建密钥对
     ```
-    yum list installed | grep openssh-server // 查看是否安装了 openssh-server, 没有则需要安装
-    ssh-keygen
+    ssh-keygen -t rsa -b 4096 -C "linkhanfeng_aliyun@gmail.com"
     ```
     执行上面的命令后,在 ~/.ssh/ 目录下会生成小红帽的 私钥 id_rsa 和公钥 id_rsa.pub
 2.  在服务器上批准使用小红帽的公钥

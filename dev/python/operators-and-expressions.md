@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 15:41:20'
 tags: [dev, python]
-categories: [dev, python]
 title: 运算符与表达式
-updated: '2018-12-09 18:39:33'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 运算符与表达式
@@ -18,7 +18,7 @@ updated: '2018-12-09 18:39:33'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > 表达式由运算符与操作数构成。例如: `2 + 3`  
 > `+` 是运算符: 对相关数据(即操作数)进行运算  

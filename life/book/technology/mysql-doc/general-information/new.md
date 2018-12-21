@@ -1,9 +1,9 @@
 ---
+categories: [life, book, technology, mysql-doc]
 date: '2018-12-05 18:03:21'
 tags: [life, book, technology, mysql-doc]
-categories: [life, book, technology, mysql-doc]
 title: 1.4 MySQL 5.7中的新功能
-updated: '2018-12-10 18:36:15'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 1.4 MySQL 5.7中的新功能
@@ -15,7 +15,7 @@ updated: '2018-12-10 18:36:15'
 - [MySQL 5.7中删除的功能](#mysql-57%E4%B8%AD%E5%88%A0%E9%99%A4%E7%9A%84%E5%8A%9F%E8%83%BD)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 <a id="mysql-57%E4%B8%AD%E6%B7%BB%E5%8A%A0%E7%9A%84%E5%8A%9F%E8%83%BD"></a>
 ## MySQL 5.7中添加的功能

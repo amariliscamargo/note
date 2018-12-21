@@ -1,9 +1,9 @@
 ---
+categories: [dev, linux, lpic-1, filesystems]
 date: '2018-12-16 21:36:41'
 tags: [dev, linux, lpic-1, filesystems]
-categories: [dev, linux, lpic-1, filesystems]
 title: 管理文件权限和所有权
-updated: '2018-12-18 15:41:34'
+updated: '2018-12-21 14:48:46'
 ...
 ---
 # 管理文件权限和所有权
@@ -14,6 +14,8 @@ updated: '2018-12-18 15:41:34'
     - [先决条件](#%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6)
     - [术语](#%E6%9C%AF%E8%AF%AD)
 - [用户和组](#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84)
+    - [新建用户和组](#%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84)
+    - [切换用户](#%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7)
     - [我是谁?](#%E6%88%91%E6%98%AF%E8%B0%81)
     - [我在哪个组中?](#%E6%88%91%E5%9C%A8%E5%93%AA%E4%B8%AA%E7%BB%84%E4%B8%AD)
 - [文件的所有权和权限](#%E6%96%87%E4%BB%B6%E7%9A%84%E6%89%80%E6%9C%89%E6%9D%83%E5%92%8C%E6%9D%83%E9%99%90)
@@ -25,7 +27,7 @@ updated: '2018-12-18 15:41:34'
 - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
-[回到目录](../index.md)
+[回到系列教程主目录](../index.md)
 
 <a id="%E6%A6%82%E8%BF%B0"></a>
 ## 概述
@@ -51,6 +53,11 @@ updated: '2018-12-18 15:41:34'
 
 <a id="%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84"></a>
 ## 用户和组
+<a id="%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84"></a>
+### 新建用户和组
+
+<a id="%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7"></a>
+### 切换用户
 现在,您了解了 Linux 是一个多用户的系统,每个用户属于一个主要组,也可能是附加组.  
 也可以作为一个用户登录,然后使用 su 或者 sudo -s 命令变为另一个用户.  
 Linux 的文件所有权和访问授权是与用户 id 和组密切相关的,所以我们要复习一下基本的用户和组信息.
@@ -167,9 +174,11 @@ $ ls -l hello.sh
 -rwxrwxr-x. 1 ian ian 20 Nov 30 13:05 hello.sh
 ```
 
+
 <a id="%E5%8F%82%E8%80%83"></a>
 ## 参考
-[ibm][] | [head][]
+[ibm][] | [head][] | [Linux 新用户的基本任务][]
 
 [ibm]:https://www.ibm.com/developerworks/cn/linux/l-lpic1-v3-104-5/
 [head]:http://man.linuxde.net/head
+[Linux 新用户的基本任务]:https://www.ibm.com/developerworks/cn/linux/tutorials/l-basics/

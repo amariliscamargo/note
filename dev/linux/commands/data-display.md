@@ -1,9 +1,9 @@
 ---
+categories: [dev, linux, commands]
 date: '2018-12-18 16:12:24'
 tags: [dev, linux, commands]
-categories: [dev, linux, commands]
 title: 数据的显示
-updated: '2018-12-19 12:51:02'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 数据的显示
@@ -16,7 +16,7 @@ updated: '2018-12-19 12:51:02'
 - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 <a id="cat"></a>
 ## cat

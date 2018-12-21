@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 16:09:26'
 tags: [dev, python]
-categories: [dev, python]
 title: 面向对象编程
-updated: '2018-12-11 17:19:06'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 面向对象编程
@@ -19,7 +19,7 @@ updated: '2018-12-11 17:19:06'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 <a id="%E9%9D%A2%E5%AF%B9%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B"></a>
 ## 面对对象编程

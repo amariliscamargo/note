@@ -1,9 +1,9 @@
 ---
+categories: [dev, linux, lpic-1]
 date: '2018-12-12 13:55:23'
 tags: [dev, linux, lpic-1]
-categories: [dev, linux, lpic-1]
 title: LPIC-1 Linux 管理员
-updated: '2018-12-17 18:31:52'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # LPIC-1 Linux 管理员
@@ -23,7 +23,7 @@ updated: '2018-12-17 18:31:52'
 - [安全性](./security/index_security.md "Security")
 
 <!-- /MarkdownTOCs -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > LPI致力于开发Linux认证的全球标准。
 > LPI是开源专业人士的全球认证标准和职业支持组织。 

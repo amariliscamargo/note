@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 15:50:51'
 tags: [dev, python]
-categories: [dev, python]
 title: 控制流
-updated: '2018-12-09 18:37:39'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 控制流
@@ -17,7 +17,7 @@ updated: '2018-12-09 18:37:39'
 - [总结](#%E6%80%BB%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 > Python 以自上而下的顺序执行  
 > 如果你想改变它的执行流程,需要使用控制流语句

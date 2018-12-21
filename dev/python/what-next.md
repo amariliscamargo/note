@@ -1,9 +1,9 @@
 ---
+categories: [dev, python]
 date: '2018-12-09 18:30:34'
 tags: [dev, python]
-categories: [dev, python]
 title: 下一步的学习建议
-updated: '2018-12-11 17:19:18'
+updated: '2018-12-21 12:47:53'
 ...
 ---
 # 下一步的学习建议
@@ -25,7 +25,7 @@ updated: '2018-12-11 17:19:18'
 - [小结](#%E5%B0%8F%E7%BB%93)
 
 <!-- /MarkdownTOC -->
-[回到目录](./index.md)
+[回到系列教程主目录](./index.md)
 
 <a id="%E5%90%8E%E7%BB%AD%E9%A1%B9%E7%9B%AE"></a>
 ## 后续项目
