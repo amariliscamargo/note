@@ -3,7 +3,7 @@ categories: [dev, developer]
 date: '2018-12-21 19:29:39'
 tags: [server]
 title: SSH 通讯
-updated: '2018-12-21 20:43:54'
+updated: '2018-12-24 23:58:20'
 ...
 ---
 # SSH 通讯
@@ -60,7 +60,7 @@ updated: '2018-12-21 20:43:54'
 <a id="ssh-%E8%B6%85%E6%97%B6%E8%BF%9E%E6%8E%A5%E4%B8%AD%E6%96%AD"></a>
 ## ssh 超时连接中断
 可以从客户端和服务器设置定时发送心跳解决, 推荐修改客户端
-```bash
-subl /etc/ssh/ssh_config // 客户端
+```js
+subl ~/.ssh/config // 如果不可以 可以修改 subl /etc/ssh/ssh_config
 ServerAliveInterval 60 // 每隔 60 秒向服务器发送一个空包,表示我还活着.不要关闭链接
 ```
