@@ -3,7 +3,7 @@ categories: [dev, developer]
 date: '2018-11-03 11:23:59'
 tags: [dev, developer]
 title: 开发记录
-updated: '2018-12-21 19:31:02'
+updated: '2018-12-23 22:30:15'
 ...
 ---
 # 开发记录
@@ -43,8 +43,12 @@ npm install lodash // 安装一个包 `npm install <package_name>`
 npm install -g jshint // 全局安装 `npm install -g <package>`
 npm uninstall --save lodash // 卸载包并从 package.json 中删除
 npm config list -l // 查看所有配置项
+
+https://github.com/Pana/nrm
+nrm ls
+nrm use
 npm config get registry // 查看当前 registry 的地址
-npm config set registry https://registry.npm.taobao.org –global // 设置镜像地址
+npm config set registry https://registry.npm.taobao.org –global // 设置镜像地址 [推荐使用 nrm 来管理]
 npm config set disturl https://npm.taobao.org/dist –global // 设置镜像地址
 yarn config list // 查看所有配置项
 yarn config get <key>

@@ -1,9 +1,9 @@
 ---
-date: '2018-12-14 22:34:07'
-tags: [dev, developer]
 categories: [dev, developer]
+date: '2018-12-14 22:34:07'
+tags: [server]
 title: 腾讯云-云服务器 (CVM) 使用
-updated: '2018-12-16 17:57:35'
+updated: '2018-12-21 20:43:39'
 ...
 ---
 # 腾讯云-云服务器 (CVM) 使用

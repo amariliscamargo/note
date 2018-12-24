@@ -1,9 +1,9 @@
 ---
 categories: [dev, developer]
 date: '2018-12-21 19:29:39'
-tags: [dev, developer]
+tags: [server]
 title: SSH 通讯
-updated: '2018-12-21 19:43:23'
+updated: '2018-12-21 20:43:54'
 ...
 ---
 # SSH 通讯

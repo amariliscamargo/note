@@ -1,9 +1,9 @@
 ---
 categories: [dev, developer]
 date: '2018-12-21 17:45:04'
-tags: [dev, developer]
+tags: [docker]
 title: laradock
-updated: '2018-12-21 20:27:57'
+updated: '2018-12-21 20:52:23'
 ...
 ---
 # laradock
@@ -53,7 +53,8 @@ updated: '2018-12-21 20:27:57'
     // 第一次启动会自动构建这四个容器,php-fpm默认构建
     sudo docker-compose up -d nginx mysql workspace
     ```
-    2018-12-21 20:27:51
+    大概需要 30 分钟左右
+    2018-12-21 20:27:51 - 2018-12-21 20:51:10
 
 <a id="%E5%8F%82%E8%80%83"></a>
 ## 参考

@@ -1,9 +1,9 @@
 ---
 categories: [dev, developer]
 date: '2018-12-21 13:37:06'
-tags: [dev, developer]
+tags: [docker]
 title: centos7 ubuntu16 安装 docker
-updated: '2018-12-21 17:56:49'
+updated: '2018-12-21 20:42:35'
 ...
 ---
 # centos7 ubuntu16 安装 docker
@@ -11,8 +11,8 @@ updated: '2018-12-21 17:56:49'
 
 - [centos7](#centos7)
 - [ubuntu 16](#ubuntu-16)
-    - [安装步骤](#%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4)
-    - [可选步骤](#%E5%8F%AF%E9%80%89%E6%AD%A5%E9%AA%A4)
+  - [安装步骤](#%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4)
+  - [可选步骤](#%E5%8F%AF%E9%80%89%E6%AD%A5%E9%AA%A4)
 - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- /MarkdownTOC -->
