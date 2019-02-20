@@ -1,9 +1,9 @@
 ---
 categories: [dev, php]
 date: '2018-11-08 22:06:06'
-tags: [dev, php, 环境]
+tags: [dev, php, env]
 title: Windows Server wamp 环境手动搭建
-updated: '2018-12-20 16:40:01'
+updated: '2018-12-25 09:58:02'
 ...
 ---
 # Windows Server wamp 环境手动搭建

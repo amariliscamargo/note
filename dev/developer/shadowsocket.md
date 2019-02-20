@@ -4,7 +4,7 @@ date: '2018-12-20 11:34:03'
 tags: [dev, developer, server]
 title: 阿里云 ecs 安装 shadowsocket
 titleen: Ali cloud ecs installation shadowsocket
-updated: '2018-12-25 00:03:04'
+updated: '2018-12-25 09:41:24'
 ...
 ---
 # 阿里云 ecs 安装 shadowsocket
@@ -33,7 +33,6 @@ sudo apt-get update
 sudo apt install shadowsocks-libev
 ```
 
-<a id=""></a>
 <a id="%E9%85%8D%E7%BD%AE"></a>
 ## 配置
 Configure and start the service
@@ -50,6 +49,7 @@ $ sudo vim /etc/shadowsocks-libev/config.json
     "method":"aes-128-cfb"
 }
 ```
+
 <a id="%E5%BC%80%E6%94%BE%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%8F%A3"></a>
 ## 开放服务器端口
 假如需要 开放 8989 端口:  

@@ -1,9 +1,9 @@
 ---
+categories: [dev, macos]
 date: '2018-11-02 18:58:28'
 tags: [dev, macos]
-categories: [dev, macos]
 title: macos小技巧
-updated: '2018-12-15 19:46:30'
+updated: '2019-02-19 11:24:29'
 ...
 ---
 # macos小技巧
@@ -22,6 +22,7 @@ updated: '2018-12-15 19:46:30'
     - [打开全键盘控制](#%E6%89%93%E5%BC%80%E5%85%A8%E9%94%AE%E7%9B%98%E6%8E%A7%E5%88%B6)
     - [语音](#%E8%AF%AD%E9%9F%B3)
     - [切换 root 用户](#%E5%88%87%E6%8D%A2-root-%E7%94%A8%E6%88%B7)
+    - [如果 电池未充电](#%E5%A6%82%E6%9E%9C-%E7%94%B5%E6%B1%A0%E6%9C%AA%E5%85%85%E7%94%B5)
 
 <!-- /MarkdownTOC -->
 
@@ -51,8 +52,7 @@ updated: '2018-12-15 19:46:30'
     例如: 更改 “Mac 帮助” 为中文优先,英文次之
       defaults domains (列出所有软件的标识符,用来查看 “Mac 帮助” 的软件名称)
       defaults write com.apple.help AppleLanguages "(zh-CN,en-US)"
-      defaults write com.apple.helpviewer AppleLanguages "(zh-CN,en-US)"
-      defaults write com.google.Chrome AppleLanguages "(zh-CN,en-US)" // 更改 chrome
+      defaults write com.apple.helpviewer AppleLanguages "(zh-CN,en-US)"      defaults write com.google.Chrome AppleLanguages "(zh-CN,en-US)" // 更改 chrome
     情况2: 对于 photoshop 等比较大的垃圾软件. 需要在网上下载语言包,然后替换到相应的目录.
     ```
 <a id="finder-%E7%AD%89%E8%BD%AF%E4%BB%B6%E4%B8%8D%E5%9C%A8-launchpad-%E4%B8%AD%E6%98%BE%E7%A4%BA"></a>
@@ -75,31 +75,40 @@ updated: '2018-12-15 19:46:30'
 ## 输入法和字体
 -   中英文严格1:2等宽字体 M+ [网址](http://mplus-fonts.osdn.jp/about.html)
 -   输入法: 唯一选择 rime
-    ```
-    1. 可以使用 shift 键切换输入法
-    2. 可以根据不同的 应用设置默认的输入模式 修改 squirrel.yaml
-      com.apple.Spotlight:
-        ascii_mode: true
-      com.sublimetext.3:
-        ascii_mode: true
-    3. 可以配置中文下使用英文标点,使用中括号切换候选页
+    1.  可以使用 shift 键切换输入法
+    2.  可以根据不同的 应用设置默认的输入模式 修改 squirrel.yaml
+        ```
+        com.sublimetext.3:
+          ascii_mode: true
+        ```
+    3.  可以配置中文下使用英文标点,使用中括号切换候选页
         修改 ~/Library/Rime/defalut.yaml
+        ```yaml
         标点符合更改一下例如: '\' : [ 、, ＼ ] 改为: '\' : {commit: '\'}
         { when: has_menu, accept: bracketleft, send: Page_Up }
         { when: has_menu, accept: bracketright, send: Page_Down }
-        // 从中文切换到英文输入法时,将英文字母自动上屏
+        从中文切换到英文输入法时,将英文字母自动上屏
         Shift_L: commit_code
         Shift_R: commit_code
-    4. 可以配置各种皮肤 squirrel.yaml
+        ascii_composer:
+          good_old_caps_lock: true
+          switch_key:
+            Shift_L: commit_code
+            Shift_R: commit_code
+            Control_L: noop
+            Control_R: noop
+            Caps_Lock: clear
+            Eisu_toggle: clear
+        ```
+    4.  可以配置各种皮肤 squirrel.yaml
         color_scheme: clean_white
-    5. 注意 rime 的任何配置文件更改 都需要重新部署一下,点击 deploy 按钮
-    6. rime 词库同步备份: luna_pinyin.userdb.txt
-    7. 删除系统 ABC 输入法
+    5.  注意 rime 的任何配置文件更改 都需要重新部署一下,点击 deploy 按钮
+    6.  rime 词库同步备份: luna_pinyin.userdb.txt
+    7.  删除系统 ABC 输入法 （注意备份）
         cd ~/Library/Preferences/
         plutil -p com.apple.HIToolbox.plist // 查看 plist 的命令
-        plutil -remove AppleEnabledInputSources.0 com.apple.HIToolbox.plistp // 删除 name 属性为 ABC 的节点
+        plutil -remove AppleEnabledInputSources.0 com.apple.HIToolbox.plist // 删除具有 `"KeyboardLayout Name" => "ABC"` 的节点
         重启系统即可
-    ```
 
 <a id="%E5%85%B6%E4%BB%96"></a>
 ## 其他
@@ -127,3 +136,10 @@ Don't Save 按钮(备选按钮)有了一圈蓝边，这个意味着你可以通�
 ```
 sudo su
 ```
+
+<a id="%E5%A6%82%E6%9E%9C-%E7%94%B5%E6%B1%A0%E6%9C%AA%E5%85%85%E7%94%B5"></a>
+### 如果 电池未充电
+1.  重置 [smc](https://support.apple.com/zh-cn/HT201295)
+2.  重置不知道是啥
+    1.  按一下开机键并松开
+    2.  马上按住 `command + option + p + r` 持续 `20` 秒,然后松开.

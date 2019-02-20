@@ -3,7 +3,8 @@ categories: [dev, linux, lpic-1, filesystems]
 date: '2018-12-16 21:36:41'
 tags: [dev, linux, lpic-1, filesystems]
 title: 管理文件权限和所有权
-updated: '2018-12-21 14:48:46'
+titleen: Manage file permissions and ownership
+updated: '2019-01-05 01:34:07'
 ...
 ---
 # 管理文件权限和所有权
@@ -15,6 +16,7 @@ updated: '2018-12-21 14:48:46'
     - [术语](#%E6%9C%AF%E8%AF%AD)
 - [用户和组](#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84)
     - [新建用户和组](#%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84)
+    - [删除用户和组](#%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84)
     - [切换用户](#%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7)
     - [我是谁?](#%E6%88%91%E6%98%AF%E8%B0%81)
     - [我在哪个组中?](#%E6%88%91%E5%9C%A8%E5%93%AA%E4%B8%AA%E7%BB%84%E4%B8%AD)
@@ -53,8 +55,30 @@ updated: '2018-12-21 14:48:46'
 
 <a id="%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84"></a>
 ## 用户和组
+有时需要为您的系统定义新用户,为那些用户定义用户组; 例如:创建一个用户来管理数据库;
+创建用户时推荐在任何系统上都使用相同的 ID,这样方便你进行管理; 推荐 ID 的数值大于 1000
+
 <a id="%E6%96%B0%E5%BB%BA%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84"></a>
 ### 新建用户和组
+新建用户和组推荐使用 root 用户;或者属于 sudo 组的用户
+
+1.  新建组
+    ```bash
+    $ cat /etc/group         // 所有的用户和组信息存放在此文件中
+    $ grep testuser /etc/group  // grep 命令查看用户是否已经存在
+    $ groupadd -g 2018 testuser // groupadd -g [组ID] [组名称]
+    $ grep testuser /etc/group  // 查看组是否创建成功
+    ```
+2.  新建用户
+    ```bash
+    
+    ```
+
+<a id="%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84"></a>
+### 删除用户和组
+
+
+
 
 <a id="%E5%88%87%E6%8D%A2%E7%94%A8%E6%88%B7"></a>
 ### 切换用户

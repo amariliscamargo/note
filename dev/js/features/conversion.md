@@ -4,7 +4,7 @@ date: '2018-12-23 20:29:16'
 tags: [dev, js, features]
 title: 数据类型的转换
 titleen: Data type conversion
-updated: '2018-12-23 23:52:12'
+updated: '2019-02-07 09:58:45'
 ...
 ---
 # 数据类型的转换
@@ -141,7 +141,19 @@ Boolean(new Boolean(false)) // true    false的包装对象也是真
 
 <a id="%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2"></a>
 ## 自动转换
-
+`自动转换以强制转换为基础`,遇到以下三种情况时，JavaScript 会自动转换数据类型;
+1.  不同类型的数据互相运算
+```js
+123 + 'abc'
+```
+2.  对非布尔类型的数据`求布尔值`
+```js
+if ('abc'){}
+```
+3.  对非数值类系的数据使用`一元运算符`
+```js
+- [1,2] // NaN
+```
 
 <a id="%E5%8F%82%E8%80%83"></a>
 ## 参考

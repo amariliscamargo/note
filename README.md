@@ -3,7 +3,7 @@ categories: []
 date: '2018-11-02 19:08:44'
 tags: []
 title: blog
-updated: '2018-12-21 17:29:43'
+updated: '2018-12-26 15:48:43'
 ...
 ---
 # blog
@@ -21,6 +21,7 @@ updated: '2018-12-21 17:29:43'
 <a id="todo"></a>
 ## TODO::
 - [x] no
+- [ ] gitLab 搭建
 - [ ] yes
 - [x] /Users/hf/work/github/note/dev/linux/lpic-1/filesystems/file-permissions.md
     echo 命令; 数字权限

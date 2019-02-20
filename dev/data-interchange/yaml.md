@@ -1,9 +1,10 @@
 ---
-title: 'yaml'
+categories: [dev, data-interchange]
 date: '2018-11-04 22:06:06'
-updated: '2018-12-02 19:03:09'
-tags: [dev, 数据交换]
-categories: [dev, 数据交换]
+tags: [dev, data-interchange]
+title: yaml
+updated: '2018-12-25 09:57:09'
+...
 ---
 # yaml
 YAML (YAML Ain't Markup Language) (yaml 不是标记语言)

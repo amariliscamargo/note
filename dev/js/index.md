@@ -6,12 +6,16 @@ title: index
 updated: '2018-12-23 09:01:36'
 ...
 ---
-<!-- MarkdownTOC -->
+<!-- MarkdownTOCs -->
 
 
-<!-- /MarkdownTOC -->
-[回到系列教程主目录](./index.md)
+<!-- /MarkdownTOCs -->
+
 ```yaml
+- ['index_architecture.md'            , '系统架构'                           , 'System Architecture']
+- [    'hardware-settings.md'         , '确定和配置硬件设置'                 , '01 Determine and configure hardware settings']
+- [    'boot-the-system.md'           , '引导系统'                           , '02 Boot the system']
+- [    'runlevels-shutdown-system.md' , '修改运行级别并关闭或重启系统'       , '03 Change runlevels boot targets and shutdown or reboot system']
 
 ```
 <!-- 

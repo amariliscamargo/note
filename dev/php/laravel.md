@@ -1,9 +1,9 @@
 ---
 categories: [dev, php]
 date: '2018-11-08 22:06:06'
-tags: [dev, php, laravel, laradock, 环境, 草稿]
+tags: [dev, php, laravel, laradock, env, 草稿]
 title: laravel5.* 基于 laradock 项目流程
-updated: '2018-12-20 16:39:46'
+updated: '2018-12-25 09:57:41'
 ...
 ---
 # laravel5.* 基于 laradock 项目流程
