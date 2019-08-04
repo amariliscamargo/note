@@ -3,7 +3,7 @@ categories: [dev, nodejs, packages]
 date: '2018-12-02 19:52:29'
 tags: [dev, nodejs, packages]
 title: Hexo 使用指南
-updated: '2018-12-21 11:57:20'
+updated: '2019-02-23 21:40:39'
 ...
 ---
 # Hexo 使用指南
@@ -97,6 +97,8 @@ deploy:
 ### generate 生成
 ```
 hexo generate -d
+// 或者
+hexo g
 ```
 生成静态文件  
 -   -d, --deploy     文件生成后立即部署网站
@@ -106,6 +108,8 @@ hexo generate -d
 ### deploy 部署
 ```
 hexo deploy -g
+// 或者
+hexo d
 ```
 部署网站
 `hexo deploy -g` 作用等同于 `hexo generate -d`
@@ -132,7 +136,7 @@ $ hexo new [layout] <title>
 hexo clean
 ```
 清除缓存文件 (db.json) 和已生成的静态文件 (public)。  
-在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。
+在某些情况（尤其是更换主题后, 或者更改样式文件,js文件等），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。
 
 <a id="%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85"></a>
 ## 主题安装
